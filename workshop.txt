@@ -1,6 +1,6 @@
 version=1
-id=
-title=Space Brother Tweaks
-description=Mod tweaks specifically for the Space Brothers server
-tags=Build 41;Misc
+id=2777145489
+title=Space Brother Server Tweaks
+description=Various tweaks, improvements and nerfs for the Space Brothers' Private Server
+tags=Build 41;Misc;Multiplayer
 visibility=unlisted
