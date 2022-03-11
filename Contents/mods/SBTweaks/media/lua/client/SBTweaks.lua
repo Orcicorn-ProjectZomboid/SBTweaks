@@ -16,3 +16,7 @@ TweakVehicle("Base.ATAMustangPolice", "rearEndHealth", 500);
 TweakVehicle("Base.JeepArcher", "rearEndHealth", 500);
 TweakVehicle("Base.JeepClassic", "rearEndHealth", 500);
 TweakVehicle("Base.JeepRubicon", "rearEndHealth", 500);
+
+-- MOD: DADGE 2743496289
+TweakVehicle("Base.Dodge", "rearEndHealth", 500);
+TweakVehicle("Base.DodgePpg", "rearEndHealth", 500);
