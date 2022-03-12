@@ -5,6 +5,9 @@ require("VehicleTweaker_Core");
 TweakItem("Base.LightBulb","ConditionMax",2100000000);
 TweakItem("Base.Log", "Weight", 4.5);
 TweakItem("Base.Plank", "Weight", 1.5);
+TweakItem("Base.MetalBar", "Weight", 0.5);
+TweakItem("Base.MetalPipe", "Weight", 0.5);
+TweakItem("Base.SheetMetal", "Weight", 1);
 
 -- MOD: PITSTOP 2597946327
 TweakItem("Base.KleanBackPack", "WeightReduction", 95);
