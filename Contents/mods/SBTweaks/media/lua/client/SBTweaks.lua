@@ -32,3 +32,11 @@ TweakVehicle("Base.82oshkoshM911B", "frontEndHealth", 10000);
 
 -- MOD: HUMMER 2642541073
 TweakVehicle("Base.92amgeneralM998", "engineForce", 6200);
+
+-- MOD: TSAR BUS 2592358528
+TweakVehicle("Base.ATASchoolBus", "engineForce", 5500);
+TweakVehicle("Base.ATAArmyBus", "engineForce", 5500);
+TweakVehicle("Base.ATAPrisonBus", "engineForce", 5500);
+TweakVehicle("Base.ATASchoolBus", "maxSpeed", 60f);
+TweakVehicle("Base.ATAArmyBus", "maxSpeed", 60f);
+TweakVehicle("Base.ATAPrisonBus", "maxSpeed", 60f);
