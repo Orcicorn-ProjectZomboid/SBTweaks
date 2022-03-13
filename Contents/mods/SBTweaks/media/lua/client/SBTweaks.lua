@@ -27,8 +27,8 @@ TweakVehicle("Base.Dodge", "rearEndHealth", 500);
 TweakVehicle("Base.DodgePpg", "rearEndHealth", 500);
 
 -- MOD: OSHGOSH 2618213077
-TweakVehicle("Base.82oshkoshM911", "frontEndHealth", 10000);
-TweakVehicle("Base.82oshkoshM911B", "frontEndHealth", 10000);
+TweakVehicle("Base.82oshkoshM911", "frontEndHealth", 25000);
+TweakVehicle("Base.82oshkoshM911B", "frontEndHealth", 25000);
 
 -- MOD: HUMMER 2642541073
 TweakVehicle("Base.92amgeneralM998", "engineForce", 6200);
