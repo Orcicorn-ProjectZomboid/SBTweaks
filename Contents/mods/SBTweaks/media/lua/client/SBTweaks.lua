@@ -40,3 +40,4 @@ TweakVehicle("Base.ATAPrisonBus", "engineForce", 5500);
 TweakVehicle("Base.ATASchoolBus", "maxSpeed", 60f);
 TweakVehicle("Base.ATAArmyBus", "maxSpeed", 60f);
 TweakVehicle("Base.ATAPrisonBus", "maxSpeed", 60f);
+
