@@ -41,3 +41,13 @@ TweakVehicle("Base.ATASchoolBus", "maxSpeed", 60f);
 TweakVehicle("Base.ATAArmyBus", "maxSpeed", 60f);
 TweakVehicle("Base.ATAPrisonBus", "maxSpeed", 60f);
 
+-- Move Swords to Belts instead of Back
+TweakItem("Base.Katana", "AttachmentType", "Knife");
+TweakItem("MWPWeapons.albtacticalkatana", "AttachmentType", "Knife");
+TweakItem("MWPWeapons.syntheticsword", "AttachmentType", "Knife");
+TweakItem("MWPWeapons.gothsamuraisword", "AttachmentType", "Knife");
+TweakItem("MWPWeapons.reavercleaver", "AttachmentType", "Knife");
+TweakItem("SWeapons.ScrapSword", "AttachmentType", "Knife");
+TweakItem("SWeapons.ScrapBlade", "AttachmentType", "Knife");
+TweakItem("SWeapons.SalvagedBlade", "AttachmentType", "Knife");
+TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
