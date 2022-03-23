@@ -1,0 +1,4 @@
+IGUI_EN = {
+    IGUI_VehiclePartATAProtectionSideFront = "Front Protection (NoReq)",
+    IGUI_VehiclePartATAProtectionSideTop = "Windshield Protection",
+}
