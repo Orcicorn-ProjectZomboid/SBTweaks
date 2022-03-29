@@ -1,0 +1,8 @@
+ContextMenu_EN = {
+	ContextMenu_Add_Gasoline_To_Gasoline_Storage_Tank = "Pour Gas into Trailer",
+	ContextMenu_Remove_Gasoline_From_Gasoline_Storage_Tank = "Fill Gascan",
+	ContextMenu_Fill_Gasoline_Storage_Tank_From_Pump = "Fill Trailer From Pump",
+	ContextMenu_Fill_Gasoline_Storage_Tank_From_Fuel_Truck = "Fill Trailer From Fuel Truck",
+	ContextMenu_Remove_Gasoline_From_Fuel_Truck = "Refuel from Trailer",
+	ContextMenu_For_get_Gasoline_Need_Gas_Can = "Need a gas can",
+}
