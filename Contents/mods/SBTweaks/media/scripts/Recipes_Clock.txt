@@ -1,0 +1,34 @@
+module SBTweaks
+{
+    imports 
+    {
+        Base
+    }
+	
+	recipe MakeAlarmClock {
+	    keep Screwdriver,
+	    ElectronicsScrap=5,
+        ElectricWire,
+	    Screws,
+        Battery,
+	    Result:AlarmClock2,
+	    OnGiveXP:Recipe.OnGiveXP.Give20ElectricalXP,
+	    SkillRequired:Electrical=3,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakeTimer {
+	    keep Screwdriver,
+	    ElectronicsScrap=3,
+        ElectricWire,
+	    Screws,
+        Battery,
+	    Result:Timer,
+	    OnGiveXP:Recipe.OnGiveXP.Give20ElectricalXP,
+	    SkillRequired:Electrical=3,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+    }
+	
+}
