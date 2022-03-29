@@ -1,0 +1,5 @@
+Recipe_EN = {
+    Recipe_MakeAlarmClock = "Make Alarm Clock",
+    Recipe_MakeTimer = "Make a Timer",
+    Recipe_MakeEnginePart = "Make Engine Parts",
+}
