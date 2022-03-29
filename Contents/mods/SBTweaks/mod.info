@@ -2,4 +2,4 @@ name=Space Brother Tweaks
 id=SBTweaks
 description=Various mod tweaks and overrides for the Space Brothers server
 poster=poster.png
-require=Pitstop,ATA_Mustang,ATA_Jeep,ATA_Dadge,82oshkoshM911,92amgeneralM998,ATA_Petyarbuilt
+require=Pitstop,ATA_Mustang,ATA_Jeep,ATA_Dadge,82oshkoshM911,92amgeneralM998,ATA_Petyarbuilt,autotsartrailers
