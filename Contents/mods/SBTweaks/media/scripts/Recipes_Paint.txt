@@ -1,0 +1,160 @@
+module SBTweaksPaint
+{
+    imports 
+    {
+        Base
+    }
+
+    recipe MakePaintBlack {
+        keep Plank/WoodenStick,
+	    PaintGreen=2,
+        PaintRed=2,
+        PaintBlue=2,
+	    Result:PaintBlack,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintBlue {
+        keep Plank/WoodenStick,
+	    PaintPurple=3,
+        PaintCyan=2,
+	    Result:PaintBlue,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintBrown {
+        keep Plank/WoodenStick,
+	    PaintGreen=3,
+        PaintRed=2,
+	    Result:PaintBrown,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintCyan {
+        keep Plank/WoodenStick,
+	    PaintGreen=2,
+        PaintBlue=3,
+	    Result:PaintCyan,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintGrey {
+        keep Plank/WoodenStick,
+	    PaintBlack=3,
+        PaintWhite=2,
+	    Result:PaintGrey,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintGreen {
+        keep Plank/WoodenStick,
+	    PaintBlue=3,
+        PaintYellow=2,
+	    Result:PaintGreen,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintLightBlue {
+        keep Plank/WoodenStick,
+	    PaintBlue=3,
+        PaintWhite=2,
+	    Result:PaintLightBlue,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintLightBrown {
+        keep Plank/WoodenStick,
+	    PaintBrown=3,
+        PaintWhite=2,
+	    Result:PaintLightBrown,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintOrange {
+        keep Plank/WoodenStick,
+	    PaintRed=3,
+        PaintYellow=2,
+	    Result:PaintOrange,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintPink {
+        keep Plank/WoodenStick,
+	    PaintPurple=3,
+        PaintWhite=2,
+	    Result:PaintPink,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintPurple {
+        keep Plank/WoodenStick,
+	    PaintRed=3,
+        PaintBlue=2,
+	    Result:PaintPurple,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintRed {
+        keep Plank/WoodenStick,
+	    PaintYellow=3,
+        PaintPurple=2,
+	    Result:PaintRed,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintTurquoise {
+        keep Plank/WoodenStick,
+	    PaintGreen=2,
+        PaintBlue=2,
+        PaintWhite,
+	    Result:PaintTurquoise,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintYellow {
+        keep Plank/WoodenStick,
+	    PaintGreen=2,
+        PaintRed=2,
+        PaintWhite,
+	    Result:PaintYellow,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+
+    recipe MakePaintWhite {
+        keep Plank/WoodenStick,
+	    Bleach=3,
+        PaintBlack/PaintBlue/PaintBrown/PaintCyan/PaintGrey/PaintGreen/PaintLightBlue/PaintLightBrown/PaintOrange/PaintPink/PaintPurple/PaintRed/PaintTurquoise/PaintYellow=2,
+	    Result:PaintWhite,
+	    OnGiveXP:Recipe.OnGiveXP.None,
+	    Time:30.0,
+	    NeedToBeLearn:False,
+    }
+}
