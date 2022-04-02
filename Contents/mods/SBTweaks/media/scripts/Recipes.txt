@@ -5,6 +5,26 @@ module SBTweaks
         Base
     }
 	
+	recipe MakeEnginePart {
+	    keep Wrench,
+	    keep WeldingMask,
+	    keep Screwdriver,
+	    BlowTorch=10,
+	    WeldingRods=5,
+        ScrapMetal,
+	    MetalPipe=2,
+	    SheetMetal=1,
+	    MetalBar,
+	    Screws=8,
+	    Result:EngineParts=10,
+	    OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	    OnGiveXP:Recipe.OnGiveXP.Give20MechanicsXP,
+	    SkillRequired:Mechanics=5,
+	    Time:120.0,
+	    Sound:BlowTorch,
+	    NeedToBeLearn:False,
+    }
+
 	recipe MakeAlarmClock {
 	    keep Screwdriver,
 	    ElectronicsScrap=5,
