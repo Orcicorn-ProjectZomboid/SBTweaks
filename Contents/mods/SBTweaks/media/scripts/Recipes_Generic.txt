@@ -1,0 +1,132 @@
+module SBTweaksGeneric
+{
+    imports 
+    {
+        Base
+    }
+	
+	recipe MakeEnginePart {
+	    keep Wrench,
+	    keep WeldingMask,
+	    keep Screwdriver,
+	    BlowTorch=10,
+	    WeldingRods=5,
+        ScrapMetal,
+	    MetalPipe=2,
+	    SheetMetal=1,
+	    MetalBar,
+	    Screws=8,
+	    Result:EngineParts=10,
+	    OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	    OnGiveXP:Recipe.OnGiveXP.Give20MechanicsXP,
+	    SkillRequired:Mechanics=5,
+	    Time:120.0,
+	    Sound:BlowTorch,
+	    NeedToBeLearn:False,
+    }
+
+	recipe MakeAlarmClock {
+	    keep Screwdriver,
+	    ElectronicsScrap=5,
+        ElectricWire,
+	    Screws,
+        Battery,
+	    Result:AlarmClock2,
+	    OnGiveXP:Recipe.OnGiveXP.Give20ElectricalXP,
+	    SkillRequired:Electrical=3,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+		Category: Electrical,
+    }
+
+    recipe MakeTimer {
+	    keep Screwdriver,
+	    ElectronicsScrap=3,
+        ElectricWire,
+	    Screws,
+        Battery,
+	    Result:Timer,
+	    OnGiveXP:Recipe.OnGiveXP.Give20ElectricalXP,
+	    SkillRequired:Electrical=3,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+		Category: Electrical,
+    }
+	
+	recipe MakePlaster {
+		keep HandShovel,
+		ConcretePowder,
+		Dirtbag=8,
+		Result:PlasterPowder=3,
+		OnGiveXP:Recipe.OnGiveXP.Give10FarmingXP,
+		Time:90.0,
+		NeedToBeLearn:False,
+		Category:Carpentry,
+	}
+
+	recipe MakeKetchup {
+		keep KitchenKnife/HuntingKnife,
+		RemouladeEmpty/WineEmpty2/WaterBottleEmpty/BeerEmpty/MayonnaiseEmpty/WineEmpty,
+		farming.Tomato=5,
+		Sugar=5,
+		Water=5,
+		Result:Ketchup,
+		OnGiveXP:Recipe.OnGiveXP.Give5CookingXP,
+		Time:60,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=2
+	}
+
+	recipe MakeChipsPlain {
+		keep KitchenKnife/HuntingKnife,
+		farming.Potato=5,
+		Salt=5,
+		Result:Crisps2=6,
+		OnGiveXP:Recipe.OnGiveXP.Give5CookingXP,
+		Time:45.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkilLRequired:Cooking=1
+	}
+
+	recipe MakeChipsSaltVinegar {
+		keep KitchenKnife/HuntingKnife,
+		farming.Potato=5,
+		Salt=5,
+		Vinegar=5,
+		Result:Crisps3=8,
+		OnGiveXP:Recipe.OnGiveXP.Give15CookingXP,
+		Time:55.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=2
+	}
+
+	recipe MakeChipsKetchup {
+		keep KitchenKnife/HuntingKnife,
+		farming.Potato=5,
+		Ketchup=5,
+		Result:Crisps=10,
+		OnGiveXP:Recipe.OnGiveXP.Give25CookingXP,
+		Time:55.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=3
+	}
+
+	recipe MakeChipsSourCream {
+		keep KitchenKnife/HuntingKnife,
+		farming.Potato=5,
+		Salt=5,
+		Pepper=5,
+		Milk=5,
+		Result:Crisps4=12,
+		OnGiveXP:Recipe.OnGiveXP.Give25CookingXP,
+		Time:55.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=3
+	}
+
+}
