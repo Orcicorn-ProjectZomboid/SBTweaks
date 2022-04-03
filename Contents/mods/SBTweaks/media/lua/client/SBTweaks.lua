@@ -8,6 +8,7 @@ TweakItem("Base.Plank", "Weight", 1.5);
 TweakItem("Base.MetalBar", "Weight", 0.5);
 TweakItem("Base.MetalPipe", "Weight", 0.5);
 TweakItem("Base.SheetMetal", "Weight", 1);
+TweakItem("Base.Katana", "AttachmentType", "Knife");
 
 -- MOD: PITSTOP 2597946327
 TweakItem("Base.KleanBackPack", "WeightReduction", 95);
@@ -41,17 +42,18 @@ TweakVehicle("Base.ATASchoolBus", "maxSpeed", 60f);
 TweakVehicle("Base.ATAArmyBus", "maxSpeed", 60f);
 TweakVehicle("Base.ATAPrisonBus", "maxSpeed", 60f);
 
--- Move Swords to Belts instead of Back
-TweakItem("Base.Katana", "AttachmentType", "Knife");
+-- MOD: Madax Melee Weapon Pack 2732407704
 TweakItem("MWPWeapons.albtacticalkatana", "AttachmentType", "Knife");
 TweakItem("MWPWeapons.syntheticsword", "AttachmentType", "Knife");
 TweakItem("MWPWeapons.gothsamuraisword", "AttachmentType", "Knife");
 TweakItem("MWPWeapons.reavercleaver", "AttachmentType", "Knife");
+
+-- MOD: Scrap Weapons 2122265954
 TweakItem("SWeapons.ScrapSword", "AttachmentType", "Knife");
 TweakItem("SWeapons.ScrapBlade", "AttachmentType", "Knife");
 TweakItem("SWeapons.SalvagedBlade", "AttachmentType", "Knife");
 TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
 
--- Paw Low Loot Grimoire Sword to Belt
+-- MOD: Paw Low Loot Grimoire 2279084780
 TweakItem("Base.RogueSword", "AttachmentType", "Knife");
 TweakItem("Base.RogueSword2", "AttachmentType", "Knife");
