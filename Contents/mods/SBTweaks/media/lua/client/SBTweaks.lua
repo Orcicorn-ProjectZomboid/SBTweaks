@@ -51,3 +51,7 @@ TweakItem("SWeapons.ScrapSword", "AttachmentType", "Knife");
 TweakItem("SWeapons.ScrapBlade", "AttachmentType", "Knife");
 TweakItem("SWeapons.SalvagedBlade", "AttachmentType", "Knife");
 TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
+
+-- Paw Low Loot Grimoire Sword to Belt
+TweakItem("Base.RogueSword", "AttachmentType", "Knife");
+TweakItem("Base.RogueSword2", "AttachmentType", "Knife");
