@@ -64,6 +64,16 @@ module SBTweaksGeneric
 		Category:Carpentry,
 	}
 
+	recipe MakeBarbedWire {
+		keep TW.File,
+		keep TW.Pliers,
+		Wire,
+		Result:BarbedWire,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		Time:30.0,
+		NeedToBeLearn:False,
+	}
+
 	recipe MakeKetchup {
 		keep KitchenKnife/HuntingKnife,
 		RemouladeEmpty/WineEmpty2/WaterBottleEmpty/BeerEmpty/MayonnaiseEmpty/WineEmpty,

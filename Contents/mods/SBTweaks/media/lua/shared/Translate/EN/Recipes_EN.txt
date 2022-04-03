@@ -9,6 +9,8 @@ Recipe_EN = {
     Recipe_MakeChipsSaltVinegar = "Make Salt & Vinegar Chips",
     Recipe_MakeChipsSourCream = "Make Sour Cream Chips",
 
+    Recipe_MakeBarbedWire = "Make Barbed Wire",
+
     Recipe_MakeTileBirch = "Make Flooring: Birchwood",
     Recipe_MakeCarpetDarkGrey = "Make Flooring: Dark Gray Carpet",
 
