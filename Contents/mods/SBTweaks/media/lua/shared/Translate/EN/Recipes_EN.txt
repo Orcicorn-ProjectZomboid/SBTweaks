@@ -2,7 +2,6 @@ Recipe_EN = {
     Recipe_MakeAlarmClock = "Make Alarm Clock",
     Recipe_MakeTimer = "Make a Timer",
     Recipe_MakeEnginePart = "Make Engine Parts",
-    Recipe_MakePlaster = "Make Plaster",
     Recipe_MakeKetchup = "Make Ketchup",
     Recipe_MakeChipsPlain = "Make Potato Chips",
     Recipe_MakeChipsKetchup = "Make Ketchup Chips",

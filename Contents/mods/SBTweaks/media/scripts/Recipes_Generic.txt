@@ -52,17 +52,6 @@ module SBTweaksGeneric
 	    NeedToBeLearn:False,
 		Category: Electrical,
     }
-	
-	recipe MakePlaster {
-		keep HandShovel,
-		ConcretePowder,
-		Dirtbag=8,
-		Result:PlasterPowder=3,
-		OnGiveXP:Recipe.OnGiveXP.Give10FarmingXP,
-		Time:90.0,
-		NeedToBeLearn:False,
-		Category:Carpentry,
-	}
 
 	recipe MakeBarbedWire {
 		keep TW.File,
