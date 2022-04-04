@@ -54,7 +54,7 @@ module SBTweaksGeneric
     }
 
 	recipe MakeBarbedWire {
-		keep TW.File,
+		keep TW.MetalCutter,
 		keep TW.Pliers,
 		Wire,
 		Result:BarbedWire,
