@@ -13,7 +13,7 @@ module SBTweaksTiles
 	    SkillRequired:Woodwork=3,
 	    Time:30.0,
 	    NeedToBeLearn:False,
-        Category:Carpentry,
+        Category:Tiles,
     }
 
     recipe MakeCarpetDarkGrey {
@@ -25,6 +25,6 @@ module SBTweaksTiles
         SkillRequired:Tailoring=2;Woodwork=3;,
         Time:30.0,
         NeedToBeLearn:False,
-        Category:Carpentry,
+        Category:Tiles,
     }
 }

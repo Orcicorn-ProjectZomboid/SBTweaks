@@ -10,9 +10,62 @@ TweakItem("Base.MetalPipe", "Weight", 0.5);
 TweakItem("Base.SheetMetal", "Weight", 1);
 TweakItem("Base.Katana", "AttachmentType", "Knife");
 
--- MOD: PITSTOP 2597946327
-TweakItem("Base.KleanBackPack", "WeightReduction", 95);
-TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
+-- BASE GAME: Paint now has 10 Uses per bucket
+TweakItem("Base.PaintBlack", "UseDelta", "0.1");
+TweakItem("Base.PaintBlue", "UseDelta", "0.1");
+TweakItem("Base.PaintBrown", "UseDelta", "0.1");
+TweakItem("Base.PaintCyan", "UseDelta", "0.1");
+TweakItem("Base.PaintGreen", "UseDelta", "0.1");
+TweakItem("Base.PaintGrey", "UseDelta", "0.1");
+TweakItem("Base.PaintLightBlue", "UseDelta", "0.1");
+TweakItem("Base.PaintLightBrown", "UseDelta", "0.1");
+TweakItem("Base.PaintOrange", "UseDelta", "0.1");
+TweakItem("Base.PaintPink", "UseDelta", "0.1");
+TweakItem("Base.PaintPurple", "UseDelta", "0.1");
+TweakItem("Base.PaintRed", "UseDelta", "0.1");
+TweakItem("Base.PaintTurquoise", "UseDelta", "0.1");
+TweakItem("Base.PaintWhite", "UseDelta", "0.1");
+TweakItem("Base.PaintYellow", "UseDelta", "0.1");
+
+-- MOD: PITSTOP 2597946327 
+-- Nerf Klean Up Krew backpack
+-- TweakItem("Base.KleanBackPack", "WeightReduction", 95);
+-- TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
+
+-- MOD: BRITA WEAPON PACK 2460154811
+-- Tweak the Cool Brita packs to match the Klean packs we've already found
+TweakItem("Base.Bag_Sniper_Pack", "Capacity", 40);
+TweakItem("Base.Bag_Sniper_Pack", "WeightReduction", 100);
+TweakItem("Base.Bag_ARVN_Rucksack", "Capacity", 40);
+TweakItem("Base.Bag_ARVN_Rucksack", "WeightReduction", 100);
+TweakItem("Base.Bag_ST53_Set", "Capacity", 40);
+TweakItem("Base.Bag_ST53_Set", "WeightReduction", 100);
+TweakItem("Base.Bag_SCBA", "Capacity", 40);
+TweakItem("Base.Bag_SCBA", "WeightReduction", 100);
+TweakItem("Base.Bag_ZIP", "Capacity", 40);
+TweakItem("Base.Bag_ZIP", "WeightReduction", 100);
+TweakItem("Base.Bag_SSO", "Capacity", 40);
+TweakItem("Base.Bag_SSO", "WeightReduction", 100);
+TweakItem("Base.Bag_Savotta", "Capacity", 40);
+TweakItem("Base.Bag_Savotta", "WeightReduction", 100);
+TweakItem("Base.Bag_Bush", "Capacity", 40);
+TweakItem("Base.Bag_Bush", "WeightReduction", 100);
+TweakItem("Base.Bag_Hunting", "Capacity", 40);
+TweakItem("Base.Bag_Hunting", "WeightReduction", 100);
+TweakItem("Base.Bag_Radio_Pack", "Capacity", 40);
+TweakItem("Base.Bag_Radio_Pack", "WeightReduction", 100);
+TweakItem("Base.Bag_Tactical_Alice", "Capacity", 40);
+TweakItem("Base.Bag_Tactical_Alice", "WeightReduction", 100);
+TweakItem("Base.Bag_Cat_Pack", "Capacity", 40);
+TweakItem("Base.Bag_Cat_Pack", "WeightReduction", 100);
+TweakItem("Base.Bag_Robbie_Pack", "Capacity", 40);
+TweakItem("Base.Bag_Robbie_Pack", "WeightReduction", 100);
+TweakItem("Base.Bag_M2A1_Pack", "Capacity", 40);
+TweakItem("Base.Bag_M2A1_Pack", "WeightReduction", 100);
+
+--MOD: SWAT PACK 2091564445
+TweakItem("Base.Bag_BigSwatBag", "Capacity", 40);
+TweakItem("Base.Bag_BigSwatBag", "WeightReduction", 100);
 
 -- MOD: FJORD MUSTARD 2681635926
 TweakVehicle("Base.ATAMustangClassic", "rearEndHealth", 500);
