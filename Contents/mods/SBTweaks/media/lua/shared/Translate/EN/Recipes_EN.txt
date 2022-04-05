@@ -13,6 +13,8 @@ Recipe_EN = {
     Recipe_MakeTileBirch = "Make Flooring: Birchwood",
     Recipe_MakeCarpetDarkGrey = "Make Flooring: Dark Gray Carpet",
 
+    Recipe_UpgradeOPBackPacks = "Upgrade Backpack",
+    /* Below are outdated and should be removed */
     Recipe_UpdateBagSniperPack = "Upgrade Sniper Pack (Will destroy contents)",
     Recipe_UpdateBagARVNRucksack = "Upgrade ARVN Rucksack (Will destroy contents)",
     Recipe_UpdateBagST53Set = "Upgrade ST53 Set (Will destroy contents)",
@@ -28,4 +30,5 @@ Recipe_EN = {
     Recipe_UpdateBagRobbiePack = "Upgrade Rabbit Pack (Will destroy contents)",
     Recipe_UpdateBagM2A1Pack = "Upgrade Flamethrower (Will destroy contents)",
     Recipe_UpdateBigSwatBag = "Upgrade SWAT Back (Will destroy contents)",
+
 }
