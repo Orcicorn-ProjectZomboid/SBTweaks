@@ -28,12 +28,11 @@ TweakItem("Base.PaintWhite", "UseDelta", "0.1");
 TweakItem("Base.PaintYellow", "UseDelta", "0.1");
 
 -- MOD: PITSTOP 2597946327 
--- Nerf Klean Up Krew backpack
+TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
 -- TweakItem("Base.KleanBackPack", "WeightReduction", 95);
--- TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
 
--- MOD: BRITA WEAPON PACK 2460154811
--- Tweak the Cool Brita packs to match the Klean packs we've already found
+-- MOD: BRITA ARMOR PACK 2460154811
+-- Tweak the Brita packs to match the Klean packs we've already found
 TweakItem("Base.Bag_Sniper_Pack", "Capacity", 40);
 TweakItem("Base.Bag_Sniper_Pack", "WeightReduction", 100);
 TweakItem("Base.Bag_ARVN_Rucksack", "Capacity", 40);
