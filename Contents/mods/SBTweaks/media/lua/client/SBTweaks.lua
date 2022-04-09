@@ -27,6 +27,9 @@ TweakItem("Base.PaintTurquoise", "UseDelta", "0.1");
 TweakItem("Base.PaintWhite", "UseDelta", "0.1");
 TweakItem("Base.PaintYellow", "UseDelta", "0.1");
 
+-- BASE GAME: Plaster Lasts 10 uses per bucket
+TweakItem("Base.BucketPlasterFull", "UseDelta", "0.1");
+
 -- MOD: PITSTOP 2597946327 
 TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
 -- TweakItem("Base.KleanBackPack", "WeightReduction", 95);
