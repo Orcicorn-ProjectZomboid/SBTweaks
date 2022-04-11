@@ -14,21 +14,20 @@ Recipe_EN = {
     Recipe_MakeCarpetDarkGrey = "Make Flooring: Dark Gray Carpet",
 
     Recipe_UpgradeOPBackPacks = "Upgrade Backpack",
-    /* Below are outdated and should be removed */
-    Recipe_UpdateBagSniperPack = "Upgrade Sniper Pack (Will destroy contents)",
-    Recipe_UpdateBagARVNRucksack = "Upgrade ARVN Rucksack (Will destroy contents)",
-    Recipe_UpdateBagST53Set = "Upgrade ST53 Set (Will destroy contents)",
-    Recipe_UpdateBagSCBA = "Upgrade SCBA Set (Will destroy contents)",
-    Recipe_UpdateBagZIP = "Upgrade Y-Zip Backpack (Will destroy contents)",
-    Recipe_UpdateBagSSO = "Upgrade SSO Assault Backpack (Will destroy contents)",
-    Recipe_UpdateBagSavotta = "Upgrade Savotta Backpack (Will destroy contents)",
-    Recipe_UpdateBagBush = "Upgrade Bushcraft Pack (Will destroy contents)",
-    Recipe_UpdateBagHunting = "Upgrade Bushcraft Pack (Will destroy contents)",
-    Recipe_UpdateBagRadioPack = "Upgrade Radio Pack (Will destroy contents)",
-    Recipe_UpdateBagTacticalAlice = "Upgrade Alice Pack (Will destroy contents)",
-    Recipe_UpdateBagCatPack = "Upgrade Kitty Pack (Will destroy contents)",
-    Recipe_UpdateBagRobbiePack = "Upgrade Rabbit Pack (Will destroy contents)",
-    Recipe_UpdateBagM2A1Pack = "Upgrade Flamethrower (Will destroy contents)",
-    Recipe_UpdateBigSwatBag = "Upgrade SWAT Back (Will destroy contents)",
-
+    
+    /* Aresenal Super Repairs */
+    Recipe_SBSuperRepairsArsenalGunFighter = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalNew = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack1 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack2 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack3 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack4 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack5 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack6 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack7 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack8 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack9 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack10 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack11 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack12 = "Expert Repair",
 }
