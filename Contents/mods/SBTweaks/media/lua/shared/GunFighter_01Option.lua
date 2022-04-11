@@ -17,7 +17,7 @@ local SETTINGS = {
 		dropdown7	=	1	,		
 		box8	=	false	,		
 		dropdown9	=	3	,  -- Firarm Jam Requency. 1 = 100%, 5 = Never
-		box10	=	true	,  -- Firearms never break
+		box10	=	false	,  -- Firearms never break
 		dropdown11	=	5	,		
 		dropdown12	=	5	,		
 		dropdown13	=	3	,		
