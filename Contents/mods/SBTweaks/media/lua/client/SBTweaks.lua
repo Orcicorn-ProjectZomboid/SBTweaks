@@ -2,7 +2,6 @@ require("ItemTweaker_Core");
 require("VehicleTweaker_Core");
 
 -- BASE GAME --------------------------
-TweakItem("Base.LightBulb","ConditionMax",2100000000);
 TweakItem("Base.Log", "Weight", 4.5);
 TweakItem("Base.Plank", "Weight", 1.5);
 TweakItem("Base.MetalBar", "Weight", 0.5);
@@ -11,16 +10,16 @@ TweakItem("Base.SheetMetal", "Weight", 1);
 TweakItem("Base.Katana", "AttachmentType", "Knife");
 
 -- BASE GAME: NEAR INFINITE LIGHT BULBS
-TweakItem("Base.LightBulb","ConditionMax",2000000000);
-TweakItem("Base.LightBulbRed","ConditionMax",2000000000);
-TweakItem("Base.LightBulbGreen","ConditionMax",2000000000);
-TweakItem("Base.LightBulbBlue","ConditionMax",2000000000);
-TweakItem("Base.LightBulbYellow","ConditionMax",2000000000);
-TweakItem("Base.LightBulbCyan","ConditionMax",2000000000);
-TweakItem("Base.LightBulbMagenta","ConditionMax",2000000000);
-TweakItem("Base.LightBulbOrange","ConditionMax",2000000000);
-TweakItem("Base.LightBulbPurple","ConditionMax",2000000000);
-TweakItem("Base.LightBulbPink","ConditionMax",2000000000);
+TweakItem("Base.LightBulb","ConditionMax",2100000000);
+TweakItem("Base.LightBulbRed","ConditionMax",2100000000);
+TweakItem("Base.LightBulbGreen","ConditionMax",2100000000);
+TweakItem("Base.LightBulbBlue","ConditionMax",2100000000);
+TweakItem("Base.LightBulbYellow","ConditionMax",2100000000);
+TweakItem("Base.LightBulbCyan","ConditionMax",2100000000);
+TweakItem("Base.LightBulbMagenta","ConditionMax",2100000000);
+TweakItem("Base.LightBulbOrange","ConditionMax",2100000000);
+TweakItem("Base.LightBulbPurple","ConditionMax",2100000000);
+TweakItem("Base.LightBulbPink","ConditionMax",2100000000);
 
 -- BASE GAME: Paint now has 10 Uses per bucket
 TweakItem("Base.PaintBlack", "UseDelta", "0.1");
