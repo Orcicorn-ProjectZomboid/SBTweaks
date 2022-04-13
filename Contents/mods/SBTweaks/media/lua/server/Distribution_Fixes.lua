@@ -1,6 +1,8 @@
 require 'Items/ProceduralDistributions'
 
 /* Scrap Weapons: 2122265954 */
+/*  Mod is accidentally spawning Mag5 twice instead of mag6. We'll overwrite that */
+/*  Mag 6 is "Wasteland Warrior Vol 3" */
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "SWeapons.WeaponMag6");
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.0001);
 table.insert(ProceduralDistributions["list"]["PlankStashMagazine"].items, "SWeapons.WeaponMag6");
