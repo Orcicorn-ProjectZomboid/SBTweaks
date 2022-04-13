@@ -1,3 +1,6 @@
+/* *********************************************************** */
+/* Cassette Distribution from the "penis_music" Mod 2742536847 */
+/* *********************************************************** */
 table.insert(ProceduralDistributions.list["CrateCompactDiscs"].items, "Tsarcraft.CassetteAerosmithDreamOn(1973)");
 table.insert(ProceduralDistributions.list["CrateCompactDiscs"].items, 0.1);
 table.insert(ProceduralDistributions.list["ElectronicStoreMusic"].items, "Tsarcraft.CassetteAerosmithDreamOn(1973)");
