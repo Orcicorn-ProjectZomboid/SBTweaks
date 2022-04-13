@@ -128,4 +128,20 @@ module SBTweaksGeneric
 		SkillRequired:Cooking=3
 	}
 
+	recipe MakeSledgeHammer {
+		WoodenStick,
+        ClubHammer,
+        Screws=4,
+        Scotchtape/DuctTape,
+        WeldingRods=2,
+        BlowTorch=10,
+        keep WeldingMask,
+        keep Screwdriver,
+        keep Saw/GardenSaw,
+        Result:Sledgehammer=1,
+        Time:100.0,
+        Sound:BlowTorch,
+        Category:Survivalist,
+	}
+
 }
