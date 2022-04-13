@@ -4,4 +4,3 @@ title=Space Brother Server Tweaks
 description=Various tweaks, improvements and nerfs for the Space Brothers' Private Server
 tags=Build 41;Misc;Multiplayer
 visibility=unlisted
-require=penis_music,ScrapWeapons(new version)
