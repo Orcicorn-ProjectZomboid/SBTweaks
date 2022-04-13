@@ -9,6 +9,10 @@ TweakItem("Base.MetalPipe", "Weight", 0.5);
 TweakItem("Base.SheetMetal", "Weight", 1);
 TweakItem("Base.Katana", "AttachmentType", "Knife");
 
+-- BASE GAME: Make Flashlights not consume batteries
+TweakItem("Base.Torch", "UseDelta", 0);
+TweakItem("Base.HandTorch", "UseDelta", 0);
+
 -- BASE GAME: NEAR INFINITE LIGHT BULBS
 TweakItem("Base.LightBulb","ConditionMax",2100000000);
 TweakItem("Base.LightBulbRed","ConditionMax",2100000000);
@@ -20,6 +24,54 @@ TweakItem("Base.LightBulbMagenta","ConditionMax",2100000000);
 TweakItem("Base.LightBulbOrange","ConditionMax",2100000000);
 TweakItem("Base.LightBulbPurple","ConditionMax",2100000000);
 TweakItem("Base.LightBulbPink","ConditionMax",2100000000);
+
+-- BASE GAME: Attempt to make Lamps not consume lightbulbs
+-- I don't know if this will work but worth a shot. idea comes
+-- from mods that tweak flashlights to not use batteries
+TweakItem("Base.Mov_Lamp1", "UseDelta", 0);
+TweakItem("Base.Mov_Lamp2", "UseDelta", 0);
+TweakItem("Base.Mov_Lamp3", "UseDelta", 0);
+TweakItem("Base.Mov_Lamp4", "UseDelta", 0);
+TweakItem("Base.Mov_Lamp5", "UseDelta", 0);
+TweakItem("Base.Mov_Lamp6", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_16", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_17", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_18", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_19", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_20", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_21", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_22", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_23", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_24", "UseDelta", 0);
+TweakItem("Moveables.lighting_indoor_01_25", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_24", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_25", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_26", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_27", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_28", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_29", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_30", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_31", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_32", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_33", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_34", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_35", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_36", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_37", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_38", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_39", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_40", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_41", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_42", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_43", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_44", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_45", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_46", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_47", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_48", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_49", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_50", "UseDelta", 0);
+TweakItem("Moveables.lighting_outdoor_01_51", "UseDelta", 0);
 
 -- BASE GAME: Paint now has 10 Uses per bucket
 TweakItem("Base.PaintBlack", "UseDelta", "0.1");
