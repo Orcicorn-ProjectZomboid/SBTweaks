@@ -1,4 +1,4 @@
-/* JUMP THROUGH WINDOWS: 26888884240 */
+-- JUMP THROUGH WINDOWS: 26888884240
 
 -- Jump Through Windows
 -- Author: AbraxasDusk

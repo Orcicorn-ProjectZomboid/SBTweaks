@@ -1,6 +1,6 @@
-require("ItemTweaker_Core");
+-- Imported from "More Durable Weapons B41: 2235284620
 
-/* Imported from "More Durable Weapons B41: 2235284620 */
+require("ItemTweaker_Core");
 
 -- 1-HANDED
 TweakItem("Base.Saucepan","ConditionLowerChanceOneIn", "60");

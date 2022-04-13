@@ -1,7 +1,6 @@
-/* IMPORTED FROM "Fuel Side Indicator" 2616986064 */
+-- IMPORTED FROM "Fuel Side Indicator" 2616986064
 
 -- made by photoshoplol#5731
-
 
 local iconLeft = getTexture("media/ui/ArrowLeft.png")
 local iconRight = getTexture("media/ui/ArrowRight.png")
