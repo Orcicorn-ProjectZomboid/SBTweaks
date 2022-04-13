@@ -10,6 +10,18 @@ TweakItem("Base.MetalPipe", "Weight", 0.5);
 TweakItem("Base.SheetMetal", "Weight", 1);
 TweakItem("Base.Katana", "AttachmentType", "Knife");
 
+-- BASE GAME: NEAR INFINITE LIGHT BULBS
+TweakItem("Base.LightBulb","ConditionMax",2000000000);
+TweakItem("Base.LightBulbRed","ConditionMax",2000000000);
+TweakItem("Base.LightBulbGreen","ConditionMax",2000000000);
+TweakItem("Base.LightBulbBlue","ConditionMax",2000000000);
+TweakItem("Base.LightBulbYellow","ConditionMax",2000000000);
+TweakItem("Base.LightBulbCyan","ConditionMax",2000000000);
+TweakItem("Base.LightBulbMagenta","ConditionMax",2000000000);
+TweakItem("Base.LightBulbOrange","ConditionMax",2000000000);
+TweakItem("Base.LightBulbPurple","ConditionMax",2000000000);
+TweakItem("Base.LightBulbPink","ConditionMax",2000000000);
+
 -- BASE GAME: Paint now has 10 Uses per bucket
 TweakItem("Base.PaintBlack", "UseDelta", "0.1");
 TweakItem("Base.PaintBlue", "UseDelta", "0.1");
