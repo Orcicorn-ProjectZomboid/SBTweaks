@@ -56,7 +56,7 @@ module SBTweaksGeneric
 	recipe MakeBarbedWire {
 		keep TW.MetalCutter,
 		keep TW.Pliers,
-		Wire,
+		Wire=5,
 		Result:BarbedWire,
 		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
 		Time:30.0,
