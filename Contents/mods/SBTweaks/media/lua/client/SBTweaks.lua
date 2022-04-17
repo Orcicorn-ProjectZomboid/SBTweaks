@@ -24,6 +24,18 @@ TweakItem("Base.LightBulbOrange","ConditionMax",2100000000);
 TweakItem("Base.LightBulbPurple","ConditionMax",2100000000);
 TweakItem("Base.LightBulbPink","ConditionMax",2100000000);
 
+-- BASE GAME: Reduce weight of Hair Dye
+TweakItem("Base.HairDyeBlack", "Weight", 0.5);
+TweakItem("Base.HairDyeBlonde", "Weight", 0.5);
+TweakItem("Base.HairDyeBlue", "Weight", 0.5);
+TweakItem("Base.HairDyeGinger", "Weight", 0.5);
+TweakItem("Base.HairDyeGreen", "Weight", 0.5);
+TweakItem("Base.HairDyeLightBrown", "Weight", 0.5);
+TweakItem("Base.HairDyePink", "Weight", 0.5);
+TweakItem("Base.HairDyeRed", "Weight", 0.5);
+TweakItem("Base.HairDyeWhite", "Weight", 0.5);
+TweakItem("Base.HairDyeYellow", "Weight", 0.5);
+
 -- BASE GAME: Attempt to make Lamps not consume lightbulbs
 -- I don't know if this will work but worth a shot. idea comes
 -- from mods that tweak flashlights to not use batteries
