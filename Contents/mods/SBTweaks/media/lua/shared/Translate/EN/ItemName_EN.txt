@@ -1,7 +1,4 @@
 ItemName_EN = {
-
-    ItemName_Base.Screwdriver = " Screwdriver",
-
     /* BASE: VHS Tapes */
     ItemName_Base.VHS = " Blank VHS",
     ItemName_Base.VHS_Home = " Blank VHS (Consumer Grade)",
