@@ -5,4 +5,8 @@ ContextMenu_EN = {
 	ContextMenu_Fill_Gasoline_Storage_Tank_From_Fuel_Truck = "Fill Trailer From Fuel Truck",
 	ContextMenu_Remove_Gasoline_From_Fuel_Truck = "Refuel from Trailer",
 	ContextMenu_For_get_Gasoline_Need_Gas_Can = "Need a gas can",
+
+	/* Brita's Missing Text: 2460154811 */
+	ContextMenu_Duty_Belt_WearBack = "Pouches in Back",
+	ContextMenu_Duty_Belt_WearFront = "Pouches in Front",
 }
