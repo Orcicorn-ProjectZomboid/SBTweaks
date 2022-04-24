@@ -14,6 +14,9 @@ Recipe_EN = {
     Recipe_MakeCarpetDarkGrey = "Make Flooring: Dark Gray Carpet",
 
     Recipe_UpgradeOPBackPacks = "Upgrade Backpack",
+
+    Recipe_MakeJarLidFromSmallMetal = "Cut into 4 Jar Lids",
+    Recipe_MakeJarLidFromLargeMetal = "Cut into 16 Jar Lids"
     
     /* Aresenal Super Repairs */
     Recipe_SBSuperRepairsArsenalGunFighter = "Expert Repair",

@@ -144,4 +144,22 @@ module SBTweaksGeneric
         Category:Survivalist,
 	}
 
+	recipe MakeJarLidFromSmallMetal {
+		keep TW.MetalCutter, 
+		SmallSheetMetal,
+		Result:JarLid=4,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:False,
+	}
+
+	recipe MakeJarLidFromLargeMetal {
+		keep TW.MetalCutter, 
+		SheetMetal,
+		Result:JarLid=16,
+		Time:240.0,
+		Category:Cooking,
+		NeedToBeLearn:False,
+	}
+
 }
