@@ -146,4 +146,7 @@ ItemName_EN = {
     ItemName_SBTweaks.BookSneaking3 = " Sneaking 3: Advanced",
     ItemName_SBTweaks.BookSneaking4 = " Sneaking 4: Expert",
     ItemName_SBTweaks.BookSneaking5 = " Sneaking 5: Master",  
+
+    /* Clean up Crew: Jumpsuit */
+    ItemName_Base.CleanUpKrewJumpsuit = "Vault 81 Jumpsuit",
 }

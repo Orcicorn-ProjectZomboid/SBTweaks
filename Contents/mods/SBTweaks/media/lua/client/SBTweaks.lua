@@ -109,6 +109,7 @@ TweakItem("Base.Extinguisher", "UseDelta", 0.1);
 
 -- MOD: PITSTOP 2597946327 
 TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
+TweakItem("Base.CleanUpKrewJumpsuit", "Icon", "SBVaultSuit")
 -- TweakItem("Base.KleanBackPack", "WeightReduction", 95);
 
 -- MOD: BRITA ARMOR PACK 2460154811
