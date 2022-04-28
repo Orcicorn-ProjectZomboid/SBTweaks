@@ -1,0 +1,5 @@
+Tooltip_EN {
+    Tooltip_RyansPrivateJournal = "Live in the moment",
+    Tooltip_AaronsPrivateJournal = "Speak up, I'm wearing a towel",
+    Tooltip_TylersPrivateJournal = "Drier than sawdust",
+}

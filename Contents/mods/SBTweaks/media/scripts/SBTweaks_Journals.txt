@@ -1,0 +1,47 @@
+module SBTweaks
+{
+	imports
+	{
+		Base
+	}
+
+    item RyansPrivateJournal {
+        DisplayCategory = Literature,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Ryan's Private Journal,
+        Icon	=	Paper,
+        WorldStaticModel = EmptyNotebook,
+        BoredomChange = -100,
+        StressChange = -50,
+        UnhappyChange = 20,
+        Tooltip = Tooltip_RyansPrivateJournal,
+    }
+
+    item AaronsPrivateJournal {
+        DisplayCategory = Literature,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Aaron's Private Journal,
+        Icon	=	Paper,
+        WorldStaticModel = EmptyNotebook,
+        BoredomChange = -50,
+        StressChange = -100,
+        UnhappyChange = 20,
+        Tooltip = Tooltip_AaronsPrivateJournal,
+    }
+
+    item TylersPrivateJournal {
+        DisplayCategory = Literature,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Tyler's Private Journal,
+        Icon	=	Paper,
+        WorldStaticModel = EmptyNotebook,
+        BoredomChange = 10,
+        StressChange = -25,
+        UnhappyChange = -50,
+        Tooltip = Tooltip_TylersPrivateJournal,
+    }
+
+}

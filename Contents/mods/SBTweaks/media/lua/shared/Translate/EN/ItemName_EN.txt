@@ -154,4 +154,9 @@ ItemName_EN = {
     ItemName_SBTweaks.tshirt_spacebro_black = "Space Brothers Protective Shirt",
     ItemName_SBTweaks.tshirt_spacebro_white = "Space Brothers Combat Shirt",
     ItemName_SBTweaks.socks_spacebro = "Space Brothers Running Socks",
+
+    /* Random Shit */
+    ItemName_SBTweaks.RyansPrivateJournal = "Ryan's Diary (1993)",
+    ItemName_SBTweaks.AaronsPrivateJournal = "Aaron's Diary (1993)",
+    ItemName_SBTweaks.TylersPrivateJournal = "Tyler's Diary (1993)",
 }
