@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+    <m_MaleOutfits>
+		<m_Name>Space Brothers (Black)</m_Name>
+		<m_Guid>3417f173-513b-4a5f-b9f0-bd1f14bb2d7e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>true</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>sbtweaks-78b5-496b-b121-5e4913943077e</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+    <m_MaleOutfits>
+		<m_Name>Space Brothers (White)</m_Name>
+		<m_Guid>3417f173-513b-4a5f-b9f0-bd1f14bb2d7e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>true</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>sbtweaks-f3e5-45dd-8fdc-582890d918c3</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
+    <m_FemaleOutfits>
+		<m_Name>Space Brothers (Black)</m_Name>
+		<m_Guid>3417f173-513b-4a5f-b9f0-bd1f14bb2d7e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>true</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>sbtweaks-78b5-496b-b121-5e4913943077</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+		<m_Name>Space Brothers (Black)</m_Name>
+		<m_Guid>3417f173-513b-4a5f-b9f0-bd1f14bb2d7e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>true</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>sbtweaks-f3e5-45dd-8fdc-582890d918c3</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+</outfitManager>

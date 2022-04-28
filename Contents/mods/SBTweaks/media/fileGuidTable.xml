@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+        <path>media/clothing/clothingItems/tshirt_spacebroblack.xml</path>
+        <guid>sbtweaks-78b5-496b-b121-5e4913943077</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/tshirt_spacebrowhite.xml</path>
+        <guid>sbtweaks-f3e5-45dd-8fdc-582890d918c3</guid>
+    </files>
+</fileGuidTable>
