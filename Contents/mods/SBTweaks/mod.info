@@ -2,3 +2,4 @@ name=Space Brother Tweaks
 id=SBTweaks
 description=Various mod tweaks and overrides for the Space Brothers server
 poster=poster.png
+require=penis_music,ScrapWeapons(new version),Arsenal(26)GunFighter,Brita,Brita_2,Swatpack,Pitstop
