@@ -1,4 +1,4 @@
-local oldISVehicleMenu = ISVehicleMenu.FillMenuOutsideVehicle
+-- local oldISVehicleMenu = ISVehicleMenu.FillMenuOutsideVehicle
 
 local deleteVehicle = function(player, vehicle)
     vehicle:permanentlyRemove()
@@ -6,7 +6,7 @@ local deleteVehicle = function(player, vehicle)
 end
 
 function ISVehicleMenu.FillMenuOutsideVehicle(player, context, vehicle, test)
-	oldISVehicleMenu(player, context, vehicle, test)
+	-- oldISVehicleMenu(player, context, vehicle, test)
     local playerObj = getSpecificPlayer(player)
     local equipped = playerObj:getPrimaryHandItem()
     if vehicle and equipped then
