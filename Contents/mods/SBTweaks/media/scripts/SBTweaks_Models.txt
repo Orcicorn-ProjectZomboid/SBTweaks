@@ -1,0 +1,12 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    model AdminWand {
+		mesh = WorldItems/TreeBranch,
+		texture = WorldItems/AdminWand,
+		scale = 0.2,
+    }
+
+}

@@ -159,4 +159,7 @@ ItemName_EN = {
     ItemName_SBTweaks.RyansPrivateJournal = "Ryan's Diary (1993)",
     ItemName_SBTweaks.AaronsPrivateJournal = "Aaron's Diary (1993)",
     ItemName_SBTweaks.TylersPrivateJournal = "Tyler's Diary (1993)",
+
+    /* Admin Wand */
+    ItemName_SBTweaks.AdminWand = "Barry Hotter's Wand",
 }

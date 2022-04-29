@@ -1,0 +1,14 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    item AdminWand {
+        weight = 0.01,
+        Type = Normal,
+        DisplayName = A magical tree branch,
+        Icon = AdminWand,
+        WorldStaticModel = SBTweaks.AdminWand,
+        Tooltip = Tooltip_SBTweaks_AdminWand,
+    }
+}
