@@ -1,4 +1,5 @@
 ContextMenu_EN = {
+	/* Rewrite some Gas Notifications for Clarity */
 	ContextMenu_Add_Gasoline_To_Gasoline_Storage_Tank = "Pour Gas into Trailer",
 	ContextMenu_Remove_Gasoline_From_Gasoline_Storage_Tank = "Fill Gascan",
 	ContextMenu_Fill_Gasoline_Storage_Tank_From_Pump = "Fill Trailer From Pump",
