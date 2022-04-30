@@ -44,7 +44,7 @@ module SBTweaks
 	    DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Space Brothers Socks,
-		ClothingItem = Socks_Ankle,
+		ClothingItem = socks_spacebro,
 		BodyLocation = Socks,
 		Icon = SocksAnkleWhite,
 		BloodLocation = Shoes,

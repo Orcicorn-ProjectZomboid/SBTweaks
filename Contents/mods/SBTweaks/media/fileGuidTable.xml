@@ -8,4 +8,8 @@
         <path>media/clothing/clothingItems/tshirt_spacebrowhite.xml</path>
         <guid>sbtweaks-f3e5-45dd-8fdc-582890d918c3</guid>
     </files>
+    <files>
+        <path>media/clothing/clothingItems/socks_spacebro.xml</path>
+        <guid>sbtweaks-34b3-4e20-905b-d22cf82b8217</guid>
+    </files>
 </fileGuidTable>
