@@ -1,4 +1,11 @@
 ItemName_EN = {
+    /* BASE: Stupid Shit */
+    ItemName_Base.HandTorch = "Small Flashlight",
+    ItemName_Base.Hat_CrashHelmet = "Helmet",
+    ItemName_Base.Hat_CrashHelmetFULL = "Motorcycle Helmet",
+    ItemName_Base.Hat_CrashHelmet_Police = "Police Motorcycle Helmet",
+    ItemName_Base.Hat_CrashHelmet_Stars = "USA Helmet",
+
     /* BASE: VHS Tapes */
     ItemName_Base.VHS = " Blank VHS",
     ItemName_Base.VHS_Home = " Blank VHS (Consumer Grade)",
