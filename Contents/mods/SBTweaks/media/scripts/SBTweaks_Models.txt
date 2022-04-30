@@ -4,9 +4,14 @@ module SBTweaks {
     }
 
     model AdminWand {
-		mesh = WorldItems/TreeBranch,
-		texture = WorldItems/AdminWand,
-		scale = 0.2,
+		  mesh = WorldItems/TreeBranch,
+		  texture = WorldItems/AdminWand,
+		  scale = 0.2,
     }
+
+    model AdminWandWeapon {
+      mesh = Weapons/2Handed/BaseballBat,
+      scale = 0.3,
+	  }
 
 }
