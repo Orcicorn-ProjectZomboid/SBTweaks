@@ -13,7 +13,7 @@ TweakItem("Base.Torch", "UseDelta", 0);
 TweakItem("Base.HandTorch", "UseDelta", 0);
 
 -- BASE GAME: Buff lights and matches
-TweakItem("Base.Lighter", "UseDelta", 0.1);
+TweakItem("Base.Lighter", "UseDelta", 0.05);
 TweakItem("Base.Lighter", "ticksPerEquipUse", 1100);
 TweakItem("Base.Matches", "UseDelta", 0.05);
 
