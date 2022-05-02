@@ -33,4 +33,8 @@ Recipe_EN = {
     Recipe_SBSuperRepairsArsenalWeaponPack10 = "Expert Repair",
     Recipe_SBSuperRepairsArsenalWeaponPack11 = "Expert Repair",
     Recipe_SBSuperRepairsArsenalWeaponPack12 = "Expert Repair",
+
+    /* Magical Bullshit */
+    Recipe_MakeGhostRing = "Craft a Ghost Ring",
+}
 }

@@ -1,0 +1,16 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    recipe MakeGhostRing {
+        Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver,
+        CorpseMale/CorpseFemale,
+        Result:SBTweaks.AdminAFKRing,
+        Time:30.0,
+        Category:SBTweaks,
+        AnimNode:Forage,
+        Sound:BloodSplatter,
+    }
+
+}
