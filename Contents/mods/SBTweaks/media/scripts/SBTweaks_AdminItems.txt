@@ -8,7 +8,7 @@ module SBTweaks {
         Type = Clothing,
         DisplayName = Admin AFK Ring,
         BodyLocation = Left_MiddleFinger,
-        ClothingItem = Ring_Left_MiddleFinger_Gold,
+        ClothingItem = ring_spacebroafk,
         Icon = AdminAFKRing,
         Weight = 0.01,
         Cosmetic = TRUE,
