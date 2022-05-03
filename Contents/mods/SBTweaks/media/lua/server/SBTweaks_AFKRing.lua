@@ -23,6 +23,7 @@ local function SBTweaksAFKRing_DisableAFK(player, ring, announce)
     -- print("Ghost Mode disabled")
     if ring:isEquipped() then
         ring:Unwear();
+        ring:getContainer():setDrawDirty(true);
         return;
     end
     player:setGhostMode(false)
