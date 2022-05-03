@@ -78,6 +78,15 @@ local function SBTweaksAFKRing_PlayerMove(player)
     end
 end
 
+local function SBTweaksAFKRing_OnAttack(character, weapon)
+    print("on attack")
+    afkring = player:getInventory():getItemFromType("SBTweaks.AdminAFKRing");
+    if afkring and afkring:isEquipped() then
+        print("ring is equipped")
+        SBTweaksAFKRing_DisableAFK(player, afkring, false)
+    end
+end
+
 -- Equip/Unequip Clothing or Sweat/Blood/Water clothing items
 local function SBTweaksAFKRing_ClothingUpdated(player)
     if isLoading == true then return end;
@@ -102,3 +111,4 @@ Events.OnGameTimeLoaded.Add(SBTweaksAFKRing_Login)                  -- Game/Serv
 Events.OnClothingUpdated.Add(SBTweaksAFKRing_ClothingUpdated)       -- Clothing Changed
 Events.OnPlayerMove.Add(SBTweaksAFKRing_PlayerMove);                -- Player has moved on their own
 Events.OnPlayerUpdate.Add(SBTweaksAFKRing_Driving)                  -- If player is driving
+Events.OnWeaponSwing.Add(SBTweaksAFKRing_OnAttack);                 -- If you try to attack zombies
