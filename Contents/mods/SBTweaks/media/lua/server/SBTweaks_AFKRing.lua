@@ -80,10 +80,12 @@ local function SBTweaksAFKRing_PlayerMove(player)
 end
 
 local function SBTweaksAFKRing_OnAttack(character, weapon)
-    noise("on attack")
+    -- noise("on attack")
+    if not instanceof(character, "IsoPlayer") then return end
+    if not character:isLocalPlayer() then return end
     afkring = player:getInventory():getItemFromType("SBTweaks.AdminAFKRing");
     if afkring and afkring:isEquipped() then
-        noise("ring is equipped")
+        noise("ring is equipped while attacking")
         SBTweaksAFKRing_DisableAFK(player, afkring, false)
     end
 end
