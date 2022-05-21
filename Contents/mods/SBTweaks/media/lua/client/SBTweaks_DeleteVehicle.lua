@@ -1,8 +1,9 @@
 -- local oldISVehicleMenu = ISVehicleMenu.FillMenuOutsideVehicle
 
-local deleteVehicle = function(player, vehicle)
-    vehicle:permanentlyRemove()
-    sendClientCommand(player, "vehicle", "remove", { vehicle = vehicle:getId() })
+local SBTweakDeleteVehicle = function(player, vehicle)
+    -- sendClientCommand(getSpecificPlayer(player:getPlayerNum()), "vehicle", "remove", { vehicle = vehicle:getId() })
+    -- vehicle:permanentlyRemove(); 
+    sendClientCommand(player, "vehicle", "rmove", { vehicle = vehicle:getId() })
 end
 
 function ISVehicleMenu.FillMenuOutsideVehicle(player, context, vehicle, test)
@@ -11,7 +12,7 @@ function ISVehicleMenu.FillMenuOutsideVehicle(player, context, vehicle, test)
     local equipped = playerObj:getPrimaryHandItem()
     if vehicle and equipped then
         if equipped:getType() == "AdminWand" then
-            context:addOption(getText("ContextMenu_SBTweaks_DeleteVehicle"), playerObj, deleteVehicle, vehicle)
+            context:addOption(getText("ContextMenu_SBTweaks_DeleteVehicle"), playerObj, SBTweakDeleteVehicle, vehicle)
         end
     end
 end
