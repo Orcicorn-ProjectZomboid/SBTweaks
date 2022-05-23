@@ -170,4 +170,7 @@ ItemName_EN = {
     /* Admin Magical Shit */
     ItemName_SBTweaks.AdminWand = "Barry Hotter's Wand",
     ItemName_SBTweaks.AdminAFKRing = "Ghost Ring",
+
+    /* Smores */
+    ItemName_SmoreUncooked = "Smore",
 }

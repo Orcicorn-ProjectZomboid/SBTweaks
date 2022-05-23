@@ -36,5 +36,8 @@ Recipe_EN = {
 
     /* Magical Bullshit */
     Recipe_MakeGhostRing = "Craft a Ghost Ring",
-}
+
+    /* Smores */
+    Recipe_PrepareSmores = "Make Smore",
+
 }
