@@ -106,8 +106,9 @@ TweakItem("Base.PaintTurquoise", "UseDelta", 0.1);
 TweakItem("Base.PaintWhite", "UseDelta", 0.1);
 TweakItem("Base.PaintYellow", "UseDelta", 0.1);
 
--- BASE GAME: Plaster Lasts 10 uses per bucket
+-- BASE GAME: Plaster and Concrete Lasts 10 uses per bucket
 TweakItem("Base.BucketPlasterFull", "UseDelta", 0.1);
+TweakItem("Base.BucketConcreteFull", "UseDelta", 0.1);
 
 -- BASE GAME: Fire Extinguishers should last longer (10 instead of 5 uses)
 TweakItem("Base.Extinguisher", "UseDelta", 0.1);
