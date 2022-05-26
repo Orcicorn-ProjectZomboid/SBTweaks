@@ -1,8 +1,20 @@
+require 'Items/SuburbsDistributions'
 require 'Items/ProceduralDistributions'
+require 'Vehicles/VehicleDistributions'
 
-/* Scrap Weapons: 2122265954 */
-/*  Mod is accidentally spawning Mag5 twice instead of mag6. We'll overwrite that */
-/*  Mag 6 is "Wasteland Warrior Vol 3" */
+-- DEBUG
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "Base.grimoireclosed");
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 1000);
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "SWeapons.WeaponMag6");
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 1000);
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "Base.Shoes_TKnight");
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 1000);
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "Base.Extinguisher");
+-- table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 1000);
+
+--Scrap Weapons: 2122265954 
+--  Mod is accidentally spawning Mag5 twice instead of mag6. We'll overwrite that 
+--  Mag 6 is "Wasteland Warrior Vol 3" 
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "SWeapons.WeaponMag6");
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.01);
 table.insert(ProceduralDistributions["list"]["PlankStashMagazine"].items, "SWeapons.WeaponMag6");
@@ -42,18 +54,22 @@ table.insert(ProceduralDistributions["list"]["CrateMagazines"].items, 0.05);
 table.insert(SuburbsDistributions["all"]["bin"].items, "SWeapons.WeaponMag6");
 table.insert(SuburbsDistributions["all"]["bin"].items, 1);
 
-/* Paw Low Loot Fantasy: 2279084780 */
-/* Grimoire */
-table.insert(ProceduralDistributions["list"]["OfficeDeskHome"].items, "Base.grimoireclose");
+-- Paw Low Loot Fantasy: 2279084780
+-- Grimoire
+table.insert(ProceduralDistributions["list"]["OfficeDeskHome"].items, "Base.grimoireclosed");
 table.insert(ProceduralDistributions["list"]["OfficeDeskHome"].items, 0.01);
-table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, "Base.grimoireclose");
-table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, 0.01);
+table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, "Base.grimoireclosed");
+table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, 0.001);
+table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "Base.grimoireclosed");
+table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.01);
+table.insert(ProceduralDistributions["list"]["BedroomSideTable"].items, "Base.grimoireclosed");
+table.insert(ProceduralDistributions["list"]["BedroomSideTable"].items, 0.1);
 table.insert(SuburbsDistributions["all"]["bin"].items, "Base.grimoireclosed");
-table.insert(SuburbsDistributions["all"]["bin"].items, 0.1);
-table.insert(SuburbsDistributions["all"]["postbox"].items, "Base.grimoireclose");
+table.insert(SuburbsDistributions["all"]["bin"].items, 0.5);
+table.insert(SuburbsDistributions["all"]["postbox"].items, "Base.grimoireclosed");
 table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
 
-/* Clothing */
+-- Clothing
 table.insert(ProceduralDistributions["list"]["ClothingStoresBoots"].items, "Base.Shoes_TKnight");
 table.insert(ProceduralDistributions["list"]["ClothingStoresBoots"].items, 0.03);
 table.insert(ProceduralDistributions["list"]["ClothingStoresDress"].items, "Base.WitchyDress");
@@ -83,7 +99,7 @@ table.insert(ProceduralDistributions["list"]["ClothingStoresSocks"].items, 1);
 table.insert(ProceduralDistributions["list"]["ClothingStoresPants"].items, "Base.KnightWaist");
 table.insert(ProceduralDistributions["list"]["ClothingStoresPants"].items, 0.2);
 
-/* Fire Extinguisher */
+-- Fire Extinguisher
 table.insert(ProceduralDistributions["list"]["BarCounterWeapon"].items, "Base.Extinguisher");
 table.insert(ProceduralDistributions["list"]["BarCounterWeapon"].items, 1);
 table.insert(ProceduralDistributions["list"]["BreakRoomShelves"].items, "Base.Extinguisher");
