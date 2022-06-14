@@ -52,20 +52,20 @@ table.insert(ProceduralDistributions["list"]["GarageMetalwork"].items, 0.1);
 table.insert(ProceduralDistributions["list"]["CrateMagazines"].items, "SWeapons.WeaponMag6");
 table.insert(ProceduralDistributions["list"]["CrateMagazines"].items, 0.05);
 table.insert(SuburbsDistributions["all"]["bin"].items, "SWeapons.WeaponMag6");
-table.insert(SuburbsDistributions["all"]["bin"].items, 1);
+table.insert(SuburbsDistributions["all"]["bin"].items, 0.1);
 
 -- Paw Low Loot Fantasy: 2279084780
 -- Grimoire
 table.insert(ProceduralDistributions["list"]["OfficeDeskHome"].items, "Base.grimoireclosed");
-table.insert(ProceduralDistributions["list"]["OfficeDeskHome"].items, 0.01);
+table.insert(ProceduralDistributions["list"]["OfficeDeskHome"].items, 0.001);
 table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, "Base.grimoireclosed");
-table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, 0.001);
+table.insert(ProceduralDistributions["list"]["BookstoreBooks"].items, 0.1);
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "Base.grimoireclosed");
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.01);
 table.insert(ProceduralDistributions["list"]["BedroomSideTable"].items, "Base.grimoireclosed");
-table.insert(ProceduralDistributions["list"]["BedroomSideTable"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["BedroomSideTable"].items, 0.01);
 table.insert(SuburbsDistributions["all"]["bin"].items, "Base.grimoireclosed");
-table.insert(SuburbsDistributions["all"]["bin"].items, 0.5);
+table.insert(SuburbsDistributions["all"]["bin"].items, 0.1);
 table.insert(SuburbsDistributions["all"]["postbox"].items, "Base.grimoireclosed");
 table.insert(SuburbsDistributions["all"]["postbox"].items, 0.1);
 
