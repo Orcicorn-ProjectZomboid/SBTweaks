@@ -73,8 +73,11 @@ end
 local function SBTweaksAFKRing_PlayerMove(player) 
     -- --print("Moving")
     if player:isGhostMode() then
-        -- --print("Moving in Ghost Mode")
         afkring = player:getInventory():getItemFromType("SBTweaks.AdminAFKRing");
+        -- Failsafe incase you're in admin mode using ghost cheat
+        if afkring == nil then return end 
+        if not afkring:isEquipped() then returnend
+        -- --print("Moving in Ghost Mode using the ring")
         SBTweaksAFKRing_DisableAFK(player, afkring, true)
     end
 end
