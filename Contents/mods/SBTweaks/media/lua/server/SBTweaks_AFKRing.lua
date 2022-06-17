@@ -2,6 +2,11 @@
 local laststate_waswearing = false;
 local isLoading = true;
 
+local function SBTweaksDebug(message)
+    return
+    -- print(message)
+end
+
 -- Produce a message above your head
 local function SBTweaksAFKRing_HaloMessage(message, colored)
     if colored ~= true then
@@ -20,7 +25,7 @@ end
 
 -- Disable Ghostmode and make annoucements
 local function SBTweaksAFKRing_DisableAFK(player, ring, announce)
-    -- --print("Ghost Mode disabled")
+    SBTweaksDebug("Ghost Mode disabled")
     if ring:isEquipped() then
         ring:Unwear();
         ring:getContainer():setDrawDirty(true);
@@ -37,7 +42,7 @@ end
 
 -- Enable ghost mode & ui interactions
 local function SBTweaksAFKRing_EnableAFK(player, ring, announce)
-    -- --print("Ghost Mode enabled")
+    SBTweaksDebug("Ghost Mode enabled")
     player:setGhostMode(true)
     player:setPrimaryHandItem(nil)
     player:setSecondaryHandItem(nil)
@@ -71,24 +76,25 @@ end
 
 -- Walk/Run/Sprint/Sneak
 local function SBTweaksAFKRing_PlayerMove(player) 
-    -- --print("Moving")
+    SBTweaksDebug("Moving")
     if player:isGhostMode() then
+        SBTweaksDebug("Player is Ghost Mode")
         afkring = player:getInventory():getItemFromType("SBTweaks.AdminAFKRing");
         -- Failsafe incase you're in admin mode using ghost cheat
         if afkring == nil then return end 
-        if not afkring:isEquipped() then returnend
-        -- --print("Moving in Ghost Mode using the ring")
+        if not afkring:isEquipped() then return end
+        SBTweaksDebug("Moving in Ghost Mode using the ring")
         SBTweaksAFKRing_DisableAFK(player, afkring, true)
     end
 end
 
 local function SBTweaksAFKRing_OnAttack(character, weapon)
-    -- --print("on attack")
+    SBTweaksDebug("on attack")
     if not instanceof(character, "IsoPlayer") then return end
     if not character:isLocalPlayer() then return end
     afkring = player:getInventory():getItemFromType("SBTweaks.AdminAFKRing");
     if afkring and afkring:isEquipped() then
-        --print("ring is equipped while attacking")
+        SBTweaksDebug("ring is equipped while attacking")
         SBTweaksAFKRing_DisableAFK(player, afkring, false)
     end
 end
@@ -96,17 +102,17 @@ end
 -- Equip/Unequip Clothing or Sweat/Blood/Water clothing items
 local function SBTweaksAFKRing_ClothingUpdated(player)
     if isLoading == true then return end;
-    -- print("Clothing updated")
+    SBTweaksDebug("Clothing updated")
     afkring = player:getInventory():getItemFromType("SBTweaks.AdminAFKRing")
     if afkring and afkring:isEquipped() then
         if laststate_waswearing == false then
-            -- print("Clothing equipped")
+            SBTweaksDebug("Clothing equipped")
             laststate_waswearing = true;
             SBTweaksAFKRing_EnableAFK(player, afkring, true)
         end
     elseif afkring ~= nil then
         if laststate_waswearing == true then
-            -- print("Clothing removed")
+            SBTweaksDebug("Clothing removed")
             laststate_waswearing = false;
             SBTweaksAFKRing_DisableAFK(player, afkring, true)
         end
