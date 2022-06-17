@@ -61,37 +61,37 @@ RecMedia["SBTWEAKS-RVHS-0002-TAPE-000000000000"] = {
 };
 
 -- Media: VHS: Commercial Tailoring 101
-RecMedia["SBTWEAKS-RHVS-C001-TAPE-000000000000"] = {
-	itemDisplayName = "RM_SBTWEAKS-RHVS-C001-META-000000000001",
-	title = "RM_SBTWEAKS-RHVS-C001-META-000000000002",
-	subtitle = "RM_SBTWEAKS-RHVS-C001-META-000000000003",
+RecMedia["SBTWEAKS-RVHS-C001-TAPE-000000000000"] = {
+	itemDisplayName = "RM_SBTWEAKS-RVHS-C001-META-000000000001",
+	title = "RM_SBTWEAKS-RVHS-C001-META-000000000002",
+	subtitle = "RM_SBTWEAKS-RVHS-C001-META-000000000003",
 	author = nil,
 	extra = nil,
 	spawning = 0,
 	category = "Retail-VHS",
 	lines = {
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000001", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000002", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000003", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000004", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000005", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000006", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000007", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000008", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000009", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000010", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000011", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000012", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000013", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000014", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
-		{ text = "RM_SBTWEAKS-RHVS-C001-LINE-000000000015", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000001", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000002", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000003", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000004", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000005", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000006", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000007", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000008", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000009", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000010", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000011", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000012", r = 0.00, g = 0.69, b = 0.94, codes = "TAI+1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000013", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000014", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
+		{ text = "RM_SBTWEAKS-RVHS-C001-LINE-000000000015", r = 0.00, g = 0.69, b = 0.94, codes = "BOR-1" },
 	},
 };
 
 -- Media: VHS: Space Brothers S3E3
-RecMedia["SBTWEAKS-RHVS-0003-TAPE-000000000000"] = {
-	itemDisplayName = "RM_SBTWEAKS-RHVS-SB01-META-000000000001",
-	title = "RM_SBTWEAKS-RHVS-SB01-META-000000000002",
+RecMedia["SBTWEAKS-RVHS-0003-TAPE-000000000000"] = {
+	itemDisplayName = "RM_SBTWEAKS-RVHS-SB01-META-000000000001",
+	title = "RM_SBTWEAKS-RVHS-SB01-META-000000000002",
 	subtitle = "RM_SBTWEAKS-RVHS-SB01-META-000000000003",
 	author = nil,
 	extra = nil,
