@@ -24,3 +24,9 @@ function SBTweaks_SuperRepairGuns(items, result, player)
     result:setCondition(0)
     result:setName("Metal Shavings")
 end
+
+-- Learn to Read
+function SBTweaks_Learn2Read(item, result, player)
+    result:setName("Certificate of Literacy")
+    player:getTraits():remove("Illiterate")
+end
