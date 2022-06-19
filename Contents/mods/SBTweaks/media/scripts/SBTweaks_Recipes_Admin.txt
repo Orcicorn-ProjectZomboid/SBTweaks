@@ -13,4 +13,18 @@ module SBTweaks {
         Sound:BloodSplatter,
     }
 
+    recipe Learn2Read {
+        Base.Crayons,
+        Base.Hat_NewspaperHat,
+        Base.JuiceBox,
+        Base.Notebook,
+        Result:Base.SheetPaper2,
+        Time:2500.0,
+        Category:SBTweaks,
+        OnCreate:SBTweaks_Learn2Read,
+        AnimNode: Disassemble,
+        Prop1: Base.Pencil,
+        Prop2: Base.Book,
+    }
+
 }
