@@ -168,3 +168,9 @@ TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
 -- MOD: Paw Low Loot Grimoire 2279084780
 TweakItem("Base.RogueSword", "AttachmentType", "Knife");
 TweakItem("Base.RogueSword2", "AttachmentType", "Knife");
+
+-- MOD: AuthenticZ: Miner hat does not consume battery
+if getActivatedMods():contains("Authentic Z - Current") then
+    TweakItem("AuthenticZClothing.Authentic_MinerLightbulb", "Weight", 0.1)
+    TweakItem("AuthenticZClothing.Authentic_MinerLightbulb", "UseDelta", 0)
+end
