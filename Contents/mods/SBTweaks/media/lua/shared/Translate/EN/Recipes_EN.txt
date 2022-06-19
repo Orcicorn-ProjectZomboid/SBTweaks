@@ -14,7 +14,11 @@ Recipe_EN = {
     Recipe_MakeCarpetDarkGrey = "Make Flooring: Dark Gray Carpet",
 
     Recipe_UpgradeOPBackPacks = "Upgrade Backpack",
-
+    Recipe_UpgradeAuthZBackPacks1 = "Upgrade Backpack",
+    Recipe_UpgradeAuthZBackPacks2 = "Upgrade Backpack",
+    Recipe_UpgradeAuthZBackPacks3 = "Upgrade Backpack",
+    Recipe_UpgradeAuthZBackPacks4 = "Upgrade Backpack",
+    
     Recipe_MakeJarLidFromSmallMetal = "Cut into 4 Jar Lids",
     Recipe_MakeJarLidFromLargeMetal = "Cut into 16 Jar Lids"
     
