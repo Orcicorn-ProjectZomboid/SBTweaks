@@ -46,8 +46,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalNew {
@@ -58,8 +58,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack1 {
@@ -70,8 +70,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack2 {
@@ -82,8 +82,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack3 {
@@ -94,8 +94,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack4 {
@@ -106,8 +106,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack5 {
@@ -118,8 +118,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack6 {
@@ -130,8 +130,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack7 {
@@ -142,8 +142,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack8 {
@@ -154,8 +154,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack9 {
@@ -166,8 +166,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack10 {
@@ -178,8 +178,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack11 {
@@ -187,11 +187,11 @@ module SBTweaks
 		keep SVD_Melee/SVDK/SVDK_Melee/SV_98/UMP9_Stock/UMP9_Fold/UMP45_Stock/UMP45_Fold/UZI/UZI_Fold/UZI_Wood/UZI_Micro/UZI_Micro_Fold/Shotgun/ShotgunSawnoff/DoubleBarrelShotgun/DoubleBarrelShotgunSawnoff/VSS/ASVAL/ASVAL_Fold/Vz58/Vz58_Melee/Vz58_Stock/Vz58_Stock_Melee/Vz58_Fold/Vz58_Fold_Melee/Vz58_Mini_Stock/Vz58_Mini_Stock_Melee/Vz58_Mini_Fold/Vz58_Mini_Fold_Melee/WA2000/M46_Mauser/M46_Mauser_Melee/Mosin/Mosin_Melee/MosinObrez_Pistol/M1/M1_Melee/M1903/M1903_Melee/Commando/APS/APS_Fold/Makarov/Makarov380/PB/Luger/Luger_WW1/Luger_Carbine/XM8Compact_Pistol,
       	Cleaning=5,
 		Result:UnusableMetal,
-      	SkillRequired:MetalWelding=5,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
+      	Category:SBTweaks,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack12 {
@@ -202,8 +202,8 @@ module SBTweaks
 		Time:960.0,
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
-      	Category:SBRepair,
-      	SkillRequired:MetalWelding=5,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
 	}
 
 }
