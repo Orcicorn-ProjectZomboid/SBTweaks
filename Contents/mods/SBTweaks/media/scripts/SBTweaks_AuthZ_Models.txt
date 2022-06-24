@@ -1,0 +1,18 @@
+module Base {
+	model AuthenticBalloonGreen {
+		mesh = Balloon,
+		texture = clothes\AuthZ_BalloonGreen,
+	}
+	model AuthenticBalloon_Group_Green {
+		mesh = BalloonGroup3,
+		texture = clothes\AuthZ_BalloonGreen,
+	}
+    	model WorldItem-BalloonGreen {
+		mesh = WorldItems/WorldItem_Balloon,
+		texture =  clothes\AuthZ_BalloonGreen,		
+	}
+	model WorldItem-BalloonGroupGreen {
+		mesh = BalloonGroup3_Ground,
+		texture =  clothes\AuthZ_BalloonGreen,		
+	}
+}
