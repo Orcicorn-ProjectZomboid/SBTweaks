@@ -1,0 +1,11 @@
+module Base {
+	recipe SBTweakRefillChainsaw {
+		P21_Chainsaw,
+		PetrolCan = 4,			/* 4 UNIT BECOMES 200 LOADED */
+	    Result	:P21_Chainsaw,
+		Category:Firearm,
+		Sound	:PZ_GetWater,
+	    Time	:200.0,
+		OnCreate:Fill_LiquidAmmo2,
+	}
+}

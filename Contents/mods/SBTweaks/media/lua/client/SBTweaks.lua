@@ -174,3 +174,9 @@ if getActivatedMods():contains("Authentic Z - Current") then
     TweakItem("AuthenticZClothing.Authentic_MinerLightbulb", "Weight", 0.1)
     TweakItem("AuthenticZClothing.Authentic_MinerLightbulb", "UseDelta", 0)
 end
+
+-- MOD: Arsenal Gunfighter (Chainsaw & Ammo)
+if getActivatedMods():contains("Arsenal(26)GunFighter") then
+    TweakItem("Base.FlameFuel", "Count", 25);
+    TweakItem("Base.P21_Chainsaw", "MaxAmmo", 200);
+end

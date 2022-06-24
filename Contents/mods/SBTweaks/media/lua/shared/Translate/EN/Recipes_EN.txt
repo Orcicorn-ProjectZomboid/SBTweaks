@@ -45,4 +45,7 @@ Recipe_EN = {
     /* Smores */
     Recipe_PrepareSmores = "Make Smore",
 
+    /* Chainsaw Tweaks */
+    Recipe_Refill Chainsaw = "Add 1 Unit of Gas Chainsaw",
+    Recipe_SBTweakRefillChainsaw = "Add Half-Can of Gas to Chainsaw",
 }
