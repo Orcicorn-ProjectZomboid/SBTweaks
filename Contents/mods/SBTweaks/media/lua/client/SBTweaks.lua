@@ -180,3 +180,8 @@ if getActivatedMods():contains("Arsenal(26)GunFighter") then
     TweakItem("Base.FlameFuel", "Count", 25);
     TweakItem("Base.P21_Chainsaw", "MaxAmmo", 200);
 end
+
+-- MOD: More Traits
+if getActivatedMods():contains("ToadTraits") then
+    TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
+end
