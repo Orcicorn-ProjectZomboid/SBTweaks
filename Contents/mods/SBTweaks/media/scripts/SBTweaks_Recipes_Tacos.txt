@@ -7,7 +7,7 @@ module SBTweaks {
         keep RollingPin,
         Flour=1,
         Water=1,
-        Result:SBTweaks.RawTacoShell=3,
+        Result:SBTweaks.SBTRawTacoShell=3,
         Time:150,
         Sound:MakePlaster,
         Category:Cooking,
