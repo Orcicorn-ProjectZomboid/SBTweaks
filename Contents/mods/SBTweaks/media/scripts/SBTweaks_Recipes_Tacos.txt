@@ -36,12 +36,13 @@ module SBTweaks {
     recipe SBTMakeHotSauce {
         keep Pot/Saucepan,
         Water=2,
-        Pepper;1,
+        Pepper=1,
         PepperJalapeno/PepperHabanero,
         Result:Hotsauce,
         Time:300,
         Sound:MakePlaster,
         Category:Cooking,
+        SkillRequired:Cooking=1,
     }
 
 }
