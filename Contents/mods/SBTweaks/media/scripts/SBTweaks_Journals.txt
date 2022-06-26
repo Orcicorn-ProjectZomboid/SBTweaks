@@ -81,4 +81,30 @@ module SBTweaks
         Tooltip = Tooltip_TylersPrivateJournal,
     }
 
+    item DavesPrivateJournal {
+        DisplayCategory = Literature,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Dave's Private Journal,
+        Icon	=	Paper,
+        WorldStaticModel = EmptyNotebook,
+        BoredomChange = -25,
+        StressChange = -10,
+        UnhappyChange = 10,
+        Tooltip = Tooltip_DavesPrivateJournal,
+    }
+
+    item StevesPrivateJournal {
+        DisplayCategory = Literature,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Steve's Private Journal,
+        Icon	=	Paper,
+        WorldStaticModel = EmptyNotebook,
+        BoredomChange = -15,
+        StressChange = 25,
+        UnhappyChange = -35,
+        Tooltip = Tooltip_StevesPrivateJournal,
+    }
+
 }

@@ -2,6 +2,8 @@ Tooltip_EN {
     Tooltip_RyansPrivateJournal = "Live in the moment",
     Tooltip_AaronsPrivateJournal = "Speak up, I'm wearing a towel",
     Tooltip_TylersPrivateJournal = "Drier than sawdust",
+    Tooltip_DavesPrivateJournal = "Best Driver in the Galaxy",
+    Tooltip_StevesPrivateJournal = "Every gun makes its own tune.", 
     Tooltip_SBTweaks_AdminWand = "Equip before Use",
     Tooltip_SBTweaks_AdminAFKRing = "Safely AFK without Logging",
 }
