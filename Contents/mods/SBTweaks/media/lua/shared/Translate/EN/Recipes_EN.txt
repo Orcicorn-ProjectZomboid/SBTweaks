@@ -48,4 +48,11 @@ Recipe_EN = {
     /* Chainsaw Tweaks */
     Recipe_Refill Chainsaw = "Add 1 Unit of Gas Chainsaw",
     Recipe_SBTweakRefillChainsaw = "Add Half-Can of Gas to Chainsaw",
+
+    /* Tacos */
+    Recipe_SBTMakeRawTacoShells = "Make Taco Shells",
+    Recipe_SBTMakeTortillas = "Make Tortillas",
+    Recipe_SBTMakeTortillaChips = "Make Tortilla Chips",
+    Recipe_SBTMakeHotSauce = "Make Hot Sauce",
+
 }

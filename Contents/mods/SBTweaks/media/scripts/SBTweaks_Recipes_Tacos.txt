@@ -1,0 +1,47 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+    recipe SBTMakeRawTacoShells {
+        keep Pan/GridlePan,
+        keep RollingPin,
+        Flour=1,
+        Water=1,
+        Result:SBTweaks.RawTacoShell=3,
+        Time:150,
+        Sound:MakePlaster,
+        Category:Cooking,
+    }
+    
+    recipe SBTMakeTortillas {
+        keep Pan/GridlePan,
+        keep RollingPin,
+        Flour=1,
+        Water=1,
+        Result:Tortilla=2,
+        Time:90,
+        Sound:MakePlaster,
+        Category:Cooking,
+    }
+    
+    recipe SBTMakeTortillaChips {
+        keep KitchenKnife/HuntingKnife,
+        Tortilla,
+        Result:TortillaChips=6,
+        Time:120,
+        Sound:SliceMeat,
+        Category:Cooking,
+    }
+    
+    recipe SBTMakeHotSauce {
+        keep Pot/Saucepan,
+        Water=2,
+        Pepper;1,
+        PepperJalapeno/PepperHabanero,
+        Result:Hotsauce,
+        Time:300,
+        Sound:MakePlaster,
+        Category:Cooking,
+    }
+
+}
