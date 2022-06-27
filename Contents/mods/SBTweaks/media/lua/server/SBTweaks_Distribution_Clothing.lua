@@ -107,3 +107,29 @@ table.insert(ProceduralDistributions["list"]["WardrobeMan"].items, "SBTweaks.soc
 table.insert(ProceduralDistributions["list"]["WardrobeMan"].items, 0.5);
 table.insert(ProceduralDistributions["list"]["WardrobeWoman"].items, "SBTweaks.socks_spacebro");
 table.insert(ProceduralDistributions["list"]["WardrobeWoman"].items, 0.5);
+
+-- Super Dave T-Shirt
+table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["BandMerchClothes"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["BandMerchClothes"].items, 8);
+table.insert(ProceduralDistributions["list"]["ClothingStoresShirts"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["ClothingStoresShirts"].items, 1);
+table.insert(ProceduralDistributions["list"]["CrateClothesRandom"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["CrateClothesRandom"].items, 1);
+table.insert(ProceduralDistributions["list"]["DresserGeneric"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["DresserGeneric"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["Locker"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["Locker"].items, 0.05);
+table.insert(ProceduralDistributions["list"]["WardrobeRedneck"].items, "SBTweaks.tshirt_superdave");
+table.insert(ProceduralDistributions["list"]["WardrobeRedneck"].items, 1);
+
+-- Super Dave Helmet
+table.insert(ProceduralDistributions["list"]["FactoryLockers"].items, "SBTweaks.helmet_superdave");
+table.insert(ProceduralDistributions["list"]["FactoryLockers"].items, 1);
+
+-- Super Dave Overalls
+table.insert(ProceduralDistributions["list"]["FactoryLockers"].items, "SBTweaks.overalls_superdave");
+table.insert(ProceduralDistributions["list"]["FactoryLockers"].items, 1);
+table.insert(ProceduralDistributions["list"]["MechanicShelfOutfit"].items, "SBTweaks.overalls_superdave");
+table.insert(ProceduralDistributions["list"]["MechanicShelfOutfit"].items, 1);

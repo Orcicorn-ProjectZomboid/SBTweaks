@@ -6,4 +6,6 @@ Tooltip_EN {
     Tooltip_StevesPrivateJournal = "Every gun makes its own tune.", 
     Tooltip_SBTweaks_AdminWand = "Equip before Use",
     Tooltip_SBTweaks_AdminAFKRing = "Safely AFK without Logging",
+
+    Tooltip_SBTweaks_AuthenticSuperDave = "Authentic Super Dave Merchandise",
 }

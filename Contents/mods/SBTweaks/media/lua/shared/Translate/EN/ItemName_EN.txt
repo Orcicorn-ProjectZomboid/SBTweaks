@@ -162,6 +162,11 @@ ItemName_EN = {
     ItemName_SBTweaks.tshirt_spacebro_white = "Space Brothers Combat Shirt",
     ItemName_SBTweaks.socks_spacebro = "Space Brothers Running Socks",
 
+    /* Super Dave Clothing */
+    ItemName_SBTweaks.tshirt_superdave = "Super Dave T-Shirt",
+    ItemName_SBTweaks.helmet_superdave = "Super Dave Helmet",
+    ItemName_SBTweaks.overalls_superdave = "Super Dave Jumpsuit",
+
     /* Random Shit */
     ItemName_SBTweaks.RyansPrivateJournal = "Ryan's Diary (1993)",
     ItemName_SBTweaks.RyansPrivateJournal2 = "Ryan's Diary (1994)",

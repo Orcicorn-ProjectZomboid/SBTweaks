@@ -56,4 +56,62 @@ module SBTweaks
         WorldStaticModel = Sock_Ankle_Ground,
     }
 
+    item overalls_superdave {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Super Dave Overalls,
+        ClothingItem = overalls_superdave,
+        BodyLocation = FullSuit,
+        Icon = overalls_superdave,
+        ColorRed = 255,
+        ColorGreen = 255,
+        ColorBlue = 255,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+        Tooltip = Tooltip_SBTweaks_AuthenticSuperDave,
+    }
+
+    item helmet_superdave {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Super Dave Helmet,
+		ClothingItem = helmet_superdave,
+		BodyLocation = Hat,
+		Icon = helmet_superdave,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 0.8,
+        WindResistance = 0.8,
+        Tooltip = Tooltip_SBTweaks_AuthenticSuperDave,
+	}
+
+    item tshirt_superdave {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Super Dave T-Shirt,
+        ClothingItem = tshirt_superdave,
+		Icon = tshirt_superdave,
+        BodyLocation = Tshirt,
+        IconsForTexture = tshirt_spacebrowhite,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        CombatSpeedModifier = 1.10,
+        RunSpeedModifier = 1.10,
+        WorldStaticModel = TShirt_Ground,
+        CanHaveHoles = true,
+        Tooltip = Tooltip_SBTweaks_AuthenticSuperDave,
+    }
+
+
 }

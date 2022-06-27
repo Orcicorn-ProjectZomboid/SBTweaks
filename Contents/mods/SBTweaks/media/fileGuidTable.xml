@@ -17,6 +17,18 @@
         <guid>sbtweaks-121f-4084-8d07-7691a12d70a1</guid>
     </files>
     <files>
+        <path>media/clothing/clothingItems/overalls_superdave.xml</path>
+        <guid>sbtweaks-63d1-45f1-aba2-be181072b487</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/helmet_superdave.xml</path>
+        <guid>sbtweaks-aa6d-463a-8d2d-e008d2fe1bc3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/tshirt_superdave.xml</path>
+        <guid>sbtweaks-1234-45dd-8fdc-582890d918c3</guid>
+    </files>
+    <files>
         <path>media/clothing/clothingItems/Bag_PackerBag.xml</path>
         <guid>90c8ada9-6425-404a-9f57-2779c2850b7e</guid>
         <note>More Traits Mod</note>
@@ -26,4 +38,19 @@
         <guid>0a6e43f4-2c40-4218-b97b-119c4d8c4ed9</guid>
         <note>More Traits Mod</note>
     </files>
+    <files>
+        <note>Default/Unchanged: Used on Super Dave Zombie</note>
+		<path>media/clothing/clothingItems/Shoes_BlackBoots.xml</path>
+		<guid>2717dfdb-49ef-401a-9715-c4487ce6abea</guid>
+	</files>
+    <files>
+        <note>Default/Unchanged: Used on Super Dave Zombie</note>
+		<path>media/clothing/clothingItems/Gloves_LeatherGloves.xml</path>
+		<guid>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</guid>
+	</files>
+	<files>
+        <note>Default/Unchanged: Used on Super Dave Zombie</note>
+		<path>media/clothing/clothingItems/WristWatch_Left_DigitalBlack.xml</path>
+		<guid>c7cc655b-284a-4087-85a6-d7c116385fb0</guid>
+	</files>
 </fileGuidTable>

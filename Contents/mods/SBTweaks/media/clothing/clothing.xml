@@ -52,4 +52,32 @@
 		</m_items>
 	</m_FemaleOutfits>
 
+	<m_MaleOutfits>
+		<m_Name>SuperDaveOsbourne</m_Name>
+		<m_Guid>superdav-eosb-ourn-e000-123412341234</m_Guid>
+		<m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items> <!-- Leather Gloves -->
+			<itemGUID>2b0756ac-57f3-415e-bfed-24b28d1ca4d6</itemGUID>
+		</m_items>
+		<m_items> <!-- Black Boots -->
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+		</m_items>
+		<m_items> <!-- Digital Watch-->
+			<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+		</m_items>
+		<m_items> <!-- Super Dave Helmet -->
+			<itemGUID>sbtweaks-aa6d-463a-8d2d-e008d2fe1bc3</itemGUID>
+		</m_items>
+		<m_items> <!-- Super Dave T-SHirt -->
+			<itemGUID>sbtweaks-1234-45dd-8fdc-582890d918c3</itemGUID>
+		</m_items>
+		<m_items> <!-- Super Dave Overalls -->
+			<itemGUID>sbtweaks-63d1-45f1-aba2-be181072b487</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+
 </outfitManager>
