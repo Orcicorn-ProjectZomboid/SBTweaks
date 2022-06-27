@@ -1,0 +1,14 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    recipe PurchaseSuperDaveShirt {
+        Money=20,
+        Result:SBTweaks.tshirt_superdave,
+        Time:30.0,
+        Category:SBTweaks,
+        NeedToBeLearn:True,
+    }
+
+}
