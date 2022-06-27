@@ -19,5 +19,11 @@
     <files>
         <path>media/clothing/clothingItems/Bag_PackerBag.xml</path>
         <guid>90c8ada9-6425-404a-9f57-2779c2850b7e</guid>
+        <note>More Traits Mod</note>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Vest_BulletAntique.xml</path>
+        <guid>0a6e43f4-2c40-4218-b97b-119c4d8c4ed9</guid>
+        <note>More Traits Mod</note>
     </files>
 </fileGuidTable>
