@@ -45,4 +45,6 @@ module SBTweaks {
         SkillRequired:Cooking=1,
     }
 
+    /* See SBTweaks_Items_ModMoreTraits.txt for */
+    /* Zombie Meat Patty overrides for Burrito/Tacos */
 }
