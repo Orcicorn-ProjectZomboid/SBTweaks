@@ -166,6 +166,7 @@ ItemName_EN = {
     ItemName_SBTweaks.tshirt_superdave = "Super Dave T-Shirt",
     ItemName_SBTweaks.helmet_superdave = "Super Dave Helmet",
     ItemName_SBTweaks.overalls_superdave = "Super Dave Jumpsuit",
+    ItemName_SBTWeaks.hat_superdave = "Super Dave Hat",
 
     /* Random Shit */
     ItemName_SBTweaks.RyansPrivateJournal = "Ryan's Diary (1993)",

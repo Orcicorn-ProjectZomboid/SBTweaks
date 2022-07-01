@@ -8,4 +8,5 @@ Tooltip_EN {
     Tooltip_SBTweaks_AdminAFKRing = "Safely AFK without Logging",
 
     Tooltip_SBTweaks_AuthenticSuperDave = "Authentic Super Dave Merchandise",
+    Tooltip_SBTweaks_AuthenticSuperDaveHat = "Will Never fall off your head<br>Authentic Super Dave Merchandise",
 }

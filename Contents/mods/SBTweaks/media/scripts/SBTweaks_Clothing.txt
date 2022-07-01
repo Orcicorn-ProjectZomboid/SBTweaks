@@ -76,6 +76,20 @@ module SBTweaks
         Tooltip = Tooltip_SBTweaks_AuthenticSuperDave,
     }
 
+	item hat_superdave {
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Super Dave Hat,
+		ClothingItem = hat_superdave,
+		BodyLocation = Hat,
+		IconsForTexture = hat_superdave,
+		CanHaveHoles = false,
+		ChanceToFall = 0,
+		Insulation = 0.10,
+		Weight = 0.25,
+        Tooltip = Tooltip_SBTweaks_AuthenticSuperDaveHat,
+	}
+
     item helmet_superdave {
 	    DisplayCategory = Accessory,
 		Type = Clothing,

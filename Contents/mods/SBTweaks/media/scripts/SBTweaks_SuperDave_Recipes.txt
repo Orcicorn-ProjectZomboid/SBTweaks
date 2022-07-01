@@ -11,4 +11,12 @@ module SBTweaks {
         NeedToBeLearn:True,
     }
 
+    recipe PurchaseSuperDaveHat {
+        Money=15,
+        Result:SBTweaks.hat_superdave,
+        Time:30.0,
+        Category:SBTweaks,
+        NeedToBeLearn:True,
+    }
+
 }

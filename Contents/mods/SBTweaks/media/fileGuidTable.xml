@@ -21,6 +21,10 @@
         <guid>sbtweaks-63d1-45f1-aba2-be181072b487</guid>
     </files>
     <files>
+        <path>media/clothing/clothingItems/hat_superdave.xml</path>
+        <guid>sbtweaks-da2e-42a5-8a51-ee87239a943c</guid>
+    </files>
+    <files>
         <path>media/clothing/clothingItems/helmet_superdave.xml</path>
         <guid>sbtweaks-aa6d-463a-8d2d-e008d2fe1bc3</guid>
     </files>

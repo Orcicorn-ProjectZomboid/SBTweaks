@@ -56,5 +56,6 @@ Recipe_EN = {
     Recipe_SBTMakeHotSauce = "Make Hot Sauce",
 
     /* Super Dave */
-    Recipe_PurchaseSuperDaveShirt = "Purchase Super Dave Merchandise",
+    Recipe_PurchaseSuperDaveShirt = "Purchase Super Dave Merchandise (Shirt)",
+    Recipe_PurchaseSuperDaveHat = "Purchase Super Dave Merchandise (Hat)",
 }

@@ -140,6 +140,6 @@ RecMedia["SBTWEAKS-RVHS-0004-TAPE-000000000000"] = {
 		{ text = "RM_SBTWEAKS_RVHS-SD01-LINE-000000000012", r = 1.00, g = 1.00, b = 1.00, codes = "DOC+5" },
 		{ text = "RM_SBTWEAKS_RVHS-SD01-LINE-000000000013", r = 0.70, g = 0.70, b = 0.70, codes = "BOR-1" },
 		{ text = "RM_SBTWEAKS_RVHS-SD01-LINE-000000000014", r = 1.00, g = 1.00, b = 1.00, codes = "RCP=PurchaseSuperDaveShirt" },
-		{ text = "RM_SBTWEAKS_RVHS-SD01-LINE-000000000015", r = 0.50, g = 0.50, b = 0.50, codes = "BOR-2" },
+		{ text = "RM_SBTWEAKS_RVHS-SD01-LINE-000000000015", r = 0.50, g = 0.50, b = 0.50, codes = "RCP=PurchaseSuperDaveHat" },
 	},
 };
