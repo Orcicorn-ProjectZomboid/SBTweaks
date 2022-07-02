@@ -12,6 +12,10 @@ TweakItem("Base.Katana", "AttachmentType", "Knife");
 TweakItem("Base.Torch", "UseDelta", 0);
 TweakItem("Base.HandTorch", "UseDelta", 0);
 
+-- BASE GAME: Ham Radio's Use Way less battery (Default 0.010)
+TweakItem("Radio.HamRadio1", "UseDelta", 0.001);
+TweakItem("Radio.HamRadio2", "UseDelta", 0.001);
+
 -- BASE GAME: Buff lights and matches
 TweakItem("Base.Lighter", "UseDelta", 0.05);
 TweakItem("Base.Lighter", "ticksPerEquipUse", 1100);
@@ -120,54 +124,56 @@ TweakItem("Base.CleanUpKrewJumpsuit", "Icon", "SBVaultSuit")
 
 -- MOD: BRITA ARMOR PACK 2460154811
 -- Tweak the Brita packs to match the Klean packs we've already found
-TweakItem("Base.Bag_Sniper_Pack", "Capacity", 40);
-TweakItem("Base.Bag_Sniper_Pack", "WeightReduction", 100);
-TweakItem("Base.Bag_ARVN_Rucksack", "Capacity", 40);
-TweakItem("Base.Bag_ARVN_Rucksack", "WeightReduction", 100);
-TweakItem("Base.Bag_ST53_Set", "Capacity", 40);
-TweakItem("Base.Bag_ST53_Set", "WeightReduction", 100);
-TweakItem("Base.Bag_SCBA", "Capacity", 40);
-TweakItem("Base.Bag_SCBA", "WeightReduction", 100);
-TweakItem("Base.Bag_ZIP", "Capacity", 40);
-TweakItem("Base.Bag_ZIP", "WeightReduction", 100);
-TweakItem("Base.Bag_SSO", "Capacity", 40);
-TweakItem("Base.Bag_SSO", "WeightReduction", 100);
-TweakItem("Base.Bag_Savotta", "Capacity", 40);
-TweakItem("Base.Bag_Savotta", "WeightReduction", 100);
-TweakItem("Base.Bag_Bush", "Capacity", 40);
-TweakItem("Base.Bag_Bush", "WeightReduction", 100);
-TweakItem("Base.Bag_Hunting", "Capacity", 40);
-TweakItem("Base.Bag_Hunting", "WeightReduction", 100);
-TweakItem("Base.Bag_Radio_Pack", "Capacity", 40);
-TweakItem("Base.Bag_Radio_Pack", "WeightReduction", 100);
-TweakItem("Base.Bag_Tactical_Alice", "Capacity", 40);
-TweakItem("Base.Bag_Tactical_Alice", "WeightReduction", 100);
-TweakItem("Base.Bag_Cat_Pack", "Capacity", 40);
-TweakItem("Base.Bag_Cat_Pack", "WeightReduction", 100);
-TweakItem("Base.Bag_Robbie_Pack", "Capacity", 40);
-TweakItem("Base.Bag_Robbie_Pack", "WeightReduction", 100);
-TweakItem("Base.Bag_M2A1_Pack", "Capacity", 40);
-TweakItem("Base.Bag_M2A1_Pack", "WeightReduction", 100);
+if getActivatedMods():contains("Brita_2") then
+    TweakItem("Base.Bag_Sniper_Pack", "Capacity", 40);
+    TweakItem("Base.Bag_Sniper_Pack", "WeightReduction", 100);
+    TweakItem("Base.Bag_ARVN_Rucksack", "Capacity", 40);
+    TweakItem("Base.Bag_ARVN_Rucksack", "WeightReduction", 100);
+    TweakItem("Base.Bag_ST53_Set", "Capacity", 40);
+    TweakItem("Base.Bag_ST53_Set", "WeightReduction", 100);
+    TweakItem("Base.Bag_SCBA", "Capacity", 40);
+    TweakItem("Base.Bag_SCBA", "WeightReduction", 100);
+    TweakItem("Base.Bag_ZIP", "Capacity", 40);
+    TweakItem("Base.Bag_ZIP", "WeightReduction", 100);
+    TweakItem("Base.Bag_SSO", "Capacity", 40);
+    TweakItem("Base.Bag_SSO", "WeightReduction", 100);
+    TweakItem("Base.Bag_Savotta", "Capacity", 40);
+    TweakItem("Base.Bag_Savotta", "WeightReduction", 100);
+    TweakItem("Base.Bag_Bush", "Capacity", 40);
+    TweakItem("Base.Bag_Bush", "WeightReduction", 100);
+    TweakItem("Base.Bag_Hunting", "Capacity", 40);
+    TweakItem("Base.Bag_Hunting", "WeightReduction", 100);
+    TweakItem("Base.Bag_Radio_Pack", "Capacity", 40);
+    TweakItem("Base.Bag_Radio_Pack", "WeightReduction", 100);
+    TweakItem("Base.Bag_Tactical_Alice", "Capacity", 40);
+    TweakItem("Base.Bag_Tactical_Alice", "WeightReduction", 100);
+    TweakItem("Base.Bag_Cat_Pack", "Capacity", 40);
+    TweakItem("Base.Bag_Cat_Pack", "WeightReduction", 100);
+    TweakItem("Base.Bag_Robbie_Pack", "Capacity", 40);
+    TweakItem("Base.Bag_Robbie_Pack", "WeightReduction", 100);
+    TweakItem("Base.Bag_M2A1_Pack", "Capacity", 40);
+    TweakItem("Base.Bag_M2A1_Pack", "WeightReduction", 100);
+end
 
 --MOD: SWAT PACK 2091564445
-TweakItem("Base.Bag_BigSwatBag", "Capacity", 40);
-TweakItem("Base.Bag_BigSwatBag", "WeightReduction", 100);
-
--- MOD: Madax Melee Weapon Pack 2732407704
-TweakItem("MWPWeapons.albtacticalkatana", "AttachmentType", "Knife");
-TweakItem("MWPWeapons.syntheticsword", "AttachmentType", "Knife");
-TweakItem("MWPWeapons.gothsamuraisword", "AttachmentType", "Knife");
-TweakItem("MWPWeapons.reavercleaver", "AttachmentType", "Knife");
+if getActivatedMods():contains("Swatpack") then
+    TweakItem("Base.Bag_BigSwatBag", "Capacity", 40);
+    TweakItem("Base.Bag_BigSwatBag", "WeightReduction", 100);
+end
 
 -- MOD: Scrap Weapons 2122265954
-TweakItem("SWeapons.ScrapSword", "AttachmentType", "Knife");
-TweakItem("SWeapons.ScrapBlade", "AttachmentType", "Knife");
-TweakItem("SWeapons.SalvagedBlade", "AttachmentType", "Knife");
-TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
+if getActivatedMods():contains("ScrapWeapons(new version)") then
+    TweakItem("SWeapons.ScrapSword", "AttachmentType", "Knife");
+    TweakItem("SWeapons.ScrapBlade", "AttachmentType", "Knife");
+    TweakItem("SWeapons.SalvagedBlade", "AttachmentType", "Knife");
+    TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
+end
 
 -- MOD: Paw Low Loot Grimoire 2279084780
-TweakItem("Base.RogueSword", "AttachmentType", "Knife");
-TweakItem("Base.RogueSword2", "AttachmentType", "Knife");
+if getActivatedMods():contains("PLLootF") then
+    TweakItem("Base.RogueSword", "AttachmentType", "Knife");
+    TweakItem("Base.RogueSword2", "AttachmentType", "Knife");
+end
 
 -- MOD: AuthenticZ: Miner hat does not consume battery
 if getActivatedMods():contains("Authentic Z - Current") then
@@ -185,4 +191,10 @@ end
 -- MOD: More Traits
 if getActivatedMods():contains("ToadTraits") then
     TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
+end
+
+-- MOD: True Music
+if getActivatedMods():contains("truemusic") then
+    TweakItem("Tsarcraft.TCBoombox", "UseDelta", 0);
+    TweakItem("Tsarcraft.TCVinylplayer", "UseDelta", 0.001);
 end
