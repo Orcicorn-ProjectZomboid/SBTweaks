@@ -110,17 +110,17 @@ table.insert(ProceduralDistributions["list"]["WardrobeWoman"].items, 0.5);
 
 -- Super Dave T-Shirt
 table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, "SBTweaks.tshirt_superdave");
-table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["BedroomDresser"].items, 0.01);
 table.insert(ProceduralDistributions["list"]["BandMerchClothes"].items, "SBTweaks.tshirt_superdave");
-table.insert(ProceduralDistributions["list"]["BandMerchClothes"].items, 8);
+table.insert(ProceduralDistributions["list"]["BandMerchClothes"].items, 0.1);
 table.insert(ProceduralDistributions["list"]["ClothingStoresShirts"].items, "SBTweaks.tshirt_superdave");
-table.insert(ProceduralDistributions["list"]["ClothingStoresShirts"].items, 1);
+table.insert(ProceduralDistributions["list"]["ClothingStoresShirts"].items, 0.1);
 table.insert(ProceduralDistributions["list"]["CrateClothesRandom"].items, "SBTweaks.tshirt_superdave");
 table.insert(ProceduralDistributions["list"]["CrateClothesRandom"].items, 1);
 table.insert(ProceduralDistributions["list"]["DresserGeneric"].items, "SBTweaks.tshirt_superdave");
-table.insert(ProceduralDistributions["list"]["DresserGeneric"].items, 0.1);
+table.insert(ProceduralDistributions["list"]["DresserGeneric"].items, 0.01);
 table.insert(ProceduralDistributions["list"]["Locker"].items, "SBTweaks.tshirt_superdave");
-table.insert(ProceduralDistributions["list"]["Locker"].items, 0.05);
+table.insert(ProceduralDistributions["list"]["Locker"].items, 0.01);
 table.insert(ProceduralDistributions["list"]["WardrobeRedneck"].items, "SBTweaks.tshirt_superdave");
 table.insert(ProceduralDistributions["list"]["WardrobeRedneck"].items, 1);
 
