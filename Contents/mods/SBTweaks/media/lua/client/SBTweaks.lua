@@ -7,6 +7,9 @@ TweakItem("Base.MetalBar", "Weight", 0.5);
 TweakItem("Base.MetalPipe", "Weight", 0.5);
 TweakItem("Base.SheetMetal", "Weight", 1);
 TweakItem("Base.Katana", "AttachmentType", "Knife");
+TweakItem("Base.LeadPipe", "AttachmentType", "Knife");
+TweakItem("Base.MetalBar", "AttachmentType", "Knife");
+TweakItem("Base.MetalPipe", "AttachmentType", "Knife");
 
 -- BASE GAME: Make Flashlights not consume batteries
 TweakItem("Base.Torch", "UseDelta", 0);
@@ -191,6 +194,7 @@ end
 -- MOD: More Traits
 if getActivatedMods():contains("ToadTraits") then
     TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
+    TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
 end
 
 -- MOD: True Music
