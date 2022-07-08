@@ -121,9 +121,9 @@ TweakItem("Base.BucketConcreteFull", "UseDelta", 0.1);
 TweakItem("Base.Extinguisher", "UseDelta", 0.1);
 
 -- MOD: PITSTOP 2597946327 
-if getActivatedMods():contains("Brita_2") then
-    TweakItem("Base.KleanBackPack", "Icon", "SBKleanPack");
-    TweakItem("Base.CleanUpKrewJumpsuit", "Icon", "SBVaultSuit")
+if getActivatedMods():contains("Pitstop") then
+    TweakItem("Base.KleanBackPack", "Icon", "ModPitstop_KleanPack");
+    TweakItem("Base.CleanUpKrewJumpsuit", "Icon", "ModPitstop_VaultSuit")
     -- TweakItem("Base.KleanBackPack", "WeightReduction", 95);
 end
 
