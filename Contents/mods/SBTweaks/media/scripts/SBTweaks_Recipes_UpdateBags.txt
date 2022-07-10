@@ -47,4 +47,12 @@ module SBTweaksBags
 		OnCreate:SBTweaks_TweakBagRecipe
 	}
 
+	recipe UpgradeAuthZBackPacksSpecial {
+		keep AuthenticZClothing.Bag_ProtonPack_Back,
+		Result: Hat_PartyHat_Stars,
+		Time: 90.0,
+		NeedToBeLearn: False,
+		OnCreate:SBTweaks_TweakBagRecipe
+	}
+
 }
