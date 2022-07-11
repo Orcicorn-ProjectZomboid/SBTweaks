@@ -205,3 +205,7 @@ if getActivatedMods():contains("truemusic") then
     TweakItem("Tsarcraft.TCBoombox", "UseDelta", 0);
     TweakItem("Tsarcraft.TCVinylplayer", "UseDelta", 0.001);
 end
+
+if getActivatedMods():contains("ToadTraits") then
+    TweakItem("MoreTraits.BloodBox", "Icon", "Bloodbag");
+end
