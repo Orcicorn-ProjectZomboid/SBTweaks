@@ -18,7 +18,7 @@ module MoreTraits {
         Icon	=	MeatPatty,
         DaysFresh	=	2,
         MinutesToCook	=	30,
-        EvolvedRecipe   =   Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:15;Salad:15;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Burger:15;Burrito:15;Taco:15,
+        EvolvedRecipe   =   Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:15;Salad:15;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Burger:15;Burrito:15;Taco:15;Pie:10,
         FoodType    =   Meat,
         Carbohydrates = 0,
         Proteins = 26,
