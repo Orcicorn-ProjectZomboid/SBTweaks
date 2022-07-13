@@ -25,8 +25,8 @@ function ZombPatty_OnCreate(items, result, player)
         result:setUnhappyChange(-10);
     end
 
-    -- Start getting bloodboxes after your 5th corpse
-    if times > 5 then
+    -- Start getting bloodboxes after your 10th corpse
+    if times > 10 then
         player:getInventory():AddItem("MoreTraits.BloodBox");
     end 
 
