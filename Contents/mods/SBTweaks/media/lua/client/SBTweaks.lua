@@ -18,6 +18,7 @@ TweakItem("Base.HandTorch", "UseDelta", 0);
 -- BASE GAME: Ham Radio's Use Way less battery (Default 0.010)
 TweakItem("Radio.HamRadio1", "UseDelta", 0.001);
 TweakItem("Radio.HamRadio2", "UseDelta", 0.001);
+TweakItem("Radio.HamRadioMakeShift", "UseDelta", 0.001);
 
 -- BASE GAME: Buff lights and matches
 TweakItem("Base.Lighter", "UseDelta", 0.05);
@@ -198,14 +199,11 @@ end
 if getActivatedMods():contains("ToadTraits") then
     TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
     TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
+    TweakItem("MoreTraits.BloodBox", "Icon", "Bloodbag");
 end
 
 -- MOD: True Music
 if getActivatedMods():contains("truemusic") then
-    TweakItem("Tsarcraft.TCBoombox", "UseDelta", 0);
+    TweakItem("Tsarcraft.TCBoombox", "UseDelta", 0.001);
     TweakItem("Tsarcraft.TCVinylplayer", "UseDelta", 0.001);
-end
-
-if getActivatedMods():contains("ToadTraits") then
-    TweakItem("MoreTraits.BloodBox", "Icon", "Bloodbag");
 end
