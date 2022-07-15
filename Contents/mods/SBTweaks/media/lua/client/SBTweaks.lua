@@ -11,6 +11,12 @@ TweakItem("Base.LeadPipe", "AttachmentType", "Knife");
 TweakItem("Base.MetalBar", "AttachmentType", "Knife");
 TweakItem("Base.MetalPipe", "AttachmentType", "Knife");
 
+-- BASE GAME: Blow Torch can be used to start fire
+TweakItem("Base.BlowTorch", "Tags", "StartFire");
+
+-- BASE GAME: Cigarettes Light from BlowTorch
+TweakItem("Base.Cigarettes", "RequireInHandOrInventory", "Lighter/Matches/BlowTorch");
+
 -- BASE GAME: Make Flashlights not consume batteries
 TweakItem("Base.Torch", "UseDelta", 0);
 TweakItem("Base.HandTorch", "UseDelta", 0);
@@ -21,9 +27,9 @@ TweakItem("Radio.HamRadio2", "UseDelta", 0.001);
 TweakItem("Radio.HamRadioMakeShift", "UseDelta", 0.001);
 
 -- BASE GAME: Buff lights and matches
-TweakItem("Base.Lighter", "UseDelta", 0.05);
-TweakItem("Base.Lighter", "ticksPerEquipUse", 1100);
-TweakItem("Base.Matches", "UseDelta", 0.05);
+TweakItem("Base.Lighter", "UseDelta", 0.01);
+TweakItem("Base.Lighter", "ticksPerEquipUse", 1500);
+TweakItem("Base.Matches", "UseDelta", 0.01);
 
 -- BASE GAME: NEAR INFINITE LIGHT BULBS
 TweakItem("Base.LightBulb","ConditionMax",2100000000);
