@@ -208,6 +208,7 @@ if getActivatedMods():contains("ToadTraits") then
     TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
     TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
     TweakItem("MoreTraits.BloodBox", "Icon", "Bloodbag");
+    TweakItem("MoreTraits.AntiqueKatana", "AttachmentType", "Knife");
 end
 
 -- MOD: True Music
