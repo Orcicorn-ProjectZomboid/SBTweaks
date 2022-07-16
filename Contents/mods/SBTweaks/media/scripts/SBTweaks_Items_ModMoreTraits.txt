@@ -1,10 +1,9 @@
 module MoreTraits {
-    imports {
+    imports { 
         Base
     }
     
-    item ZombPatty
-    {
+    item ZombPatty {
         HungerChange	=	-8,
         UnhappyChange	=	50,
         ThirstChange		=		-4,
@@ -29,4 +28,27 @@ module MoreTraits {
         GoodHot = true,
         BadCold = true,
     }
+
+    /* BloodBox is in SBTweaks.lua */
+
+    item BloodBoxBad {
+		Type = Food,
+		DisplayName = Coagulated Blood,
+		Icon = BloodbagBad,
+		Weight = 0.1,
+        Poison = true,
+        PoisonPower = 30,
+        PoisonDetectionLevel = 7,
+        UseForPoison = 1,
+		ThirstChange = 0,
+		HungerChange = 0,
+		UnhappyChange = 26,
+        ReduceFoodSickness = -25,
+		CustomContextMenu = Drink,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 0,
+        Tooltip = Ooooh chunky!,
+	}
 }
