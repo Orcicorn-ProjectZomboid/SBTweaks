@@ -1,0 +1,18 @@
+module Base {
+	recipe Open Pack of 00-Buckshot Projectiles
+	{
+		Lead00Buck_Pack,
+		Result:Lead00Buck=900,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+	recipe Place 00-Buckshot Projectiles in Pack
+	{
+		Lead00Buck=900,
+		Result:Lead00Buck_Pack,
+		Category:Firearm,
+		Sound:PutItemInBag,
+		Time:5.0,
+	}
+}
