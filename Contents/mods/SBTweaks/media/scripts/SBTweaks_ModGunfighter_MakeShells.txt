@@ -7,6 +7,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass3006 {
         keep TW.MetalCutter,
@@ -16,6 +17,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass308 {
         keep TW.MetalCutter,
@@ -25,6 +27,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass357 {
         keep TW.MetalCutter,
@@ -34,6 +37,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass38 {
         keep TW.MetalCutter,
@@ -43,6 +47,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass380 {
         keep TW.MetalCutter,
@@ -52,6 +57,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass44 {
         keep TW.MetalCutter,
@@ -61,6 +67,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass45 {
         keep TW.MetalCutter,
@@ -70,6 +77,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass4570 {
         keep TW.MetalCutter,
@@ -79,6 +87,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass45LC {
         keep TW.MetalCutter,
@@ -88,6 +97,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass50 {
         keep TW.MetalCutter,
@@ -97,6 +107,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass50BMG {
         keep TW.MetalCutter,
@@ -106,6 +117,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass545x39 {
         keep TW.MetalCutter,
@@ -115,6 +127,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass556 {
         keep TW.MetalCutter,
@@ -124,6 +137,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass57 {
         keep TW.MetalCutter,
@@ -133,6 +147,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass762x39 {
         keep TW.MetalCutter,
@@ -142,6 +157,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass762x51 {
         keep TW.MetalCutter,
@@ -151,6 +167,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass762x54r {
         keep TW.MetalCutter,
@@ -160,6 +177,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeBrass9 {
         keep TW.MetalCutter,
@@ -169,6 +187,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeHull10g {
         keep TW.MetalCutter,
@@ -178,6 +197,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeHull12g {
         keep TW.MetalCutter,
@@ -187,6 +207,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeHull20g {
         keep TW.MetalCutter,
@@ -196,6 +217,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeHull4g {
         keep TW.MetalCutter,
@@ -205,6 +227,7 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
     recipe MakeHull410g {
         keep TW.MetalCutter,
@@ -214,5 +237,6 @@ module Base {
         Sound: Reloading_Press,
         Time: 70.0,
         NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
     }
 }
