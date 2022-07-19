@@ -243,7 +243,7 @@ end
 -----------------------------------------------------------------------
 -- Event Bindings -----------------------------------------------------
 -----------------------------------------------------------------------
-Events.OnWeatherPeriodStart.Add(weatherPeriodStart);            -- Storm beings
+--Events.OnWeatherPeriodStart.Add(weatherPeriodStart);            -- Storm beings
 --Events.OnWeatherPeriodStop.Add(weatherPeriodStop)               -- Storm Ends
 Events.OnWeaponSwing.Add(weaponMessages)                        -- Weapon attack finishes
 Events.OnGameTimeLoaded.Add(announceLogin)                      -- Connection
