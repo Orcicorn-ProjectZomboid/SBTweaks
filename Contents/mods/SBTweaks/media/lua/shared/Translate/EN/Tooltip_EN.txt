@@ -9,4 +9,8 @@ Tooltip_EN {
 
     Tooltip_SBTweaks_AuthenticSuperDave = "Authentic Super Dave Merchandise",
     Tooltip_SBTweaks_AuthenticSuperDaveHat = "Will Never fall off your head<br>Authentic Super Dave Merchandise",
+
+    Tooltip_SBTweaks_SBOpioids = "Provides exceptional pain relief",
+    Tooltip_SBTweaks_SBTums = "Soothe upset stomachs",
+    Tooltip_SBTweaks_SBCoughSyrup = "Mild relief from cold and flu symptoms",
 }

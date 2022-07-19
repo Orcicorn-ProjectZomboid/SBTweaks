@@ -1,0 +1,17 @@
+module Base {
+	model SBTums {
+        mesh = WorldItems/Vitamins,
+        texture = WorldItems/SBTums,
+        scale = 0.4,
+    }
+	model SBOpioids {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/SBOpioids,
+        scale = 0.4,
+    }
+    model SBCoughSyurp {
+        mesh = WorldItems/Disinfectant,
+        texture = WorldItems/SBCoughSyrup,
+        scale = 0.2,
+    }
+}

@@ -187,4 +187,9 @@ ItemName_EN = {
 
     /* Tacos */
     ItemName_SBTweaks.SBTRawTacoShell = "Raw Taco Shell",
+
+    /* Medical Items *
+    ItemName_SBTweaks.PillsSBTums = "Antacid",
+    ItemName_SBTweaks.PillsSBCoughSyrup = "Cough Syrup",
+    ItemName_SBTweaks.PillsSBOpioids = "Oxycontin",
 }
