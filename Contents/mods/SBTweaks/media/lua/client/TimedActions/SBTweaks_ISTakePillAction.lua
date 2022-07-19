@@ -8,7 +8,7 @@ function ISTakePillAction:perform()
 
     -- If not our pills, run the other/default pill actions
     if not luautils.stringStarts(pillType, "PillsSB") then
-        print("Not our pills")
+        -- print("Not our pills")
         original_PillFunction(self)
         return
     end
