@@ -128,15 +128,15 @@ TweakItem("Base.BucketConcreteFull", "UseDelta", 0.1);
 TweakItem("Base.Extinguisher", "UseDelta", 0.1);
 
 -- BASE GAME: Add New Spices to Recipes
-TweakItem("Base.Basil", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Salad:1;Burger:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1,;Burrito:1,");
-TweakItem("Base.Chives", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1,");
-TweakItem("Base.Cilantro", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1,");
-TweakItem("Base.Oregano", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1,");
-TweakItem("Base.Parsley", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1,");
-TweakItem("Base.Rosemary", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1,");
-TweakItem("Base.Sage", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1,");
-TweakItem("Base.Thyme", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1;HotDrinkTea:1,");
-TweakItem("Base.BouillonCube", "EvolvedRecipe", "Soup:1;Stew:1;RicePot:1,")
+TweakItem("Base.Basil", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Salad:1;Burger:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1");
+TweakItem("Base.Chives", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1");
+TweakItem("Base.Cilantro", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1");
+TweakItem("Base.Oregano", "EvolvedRecipe", "Soup:1;Stew:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1");
+TweakItem("Base.Parsley", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1");
+TweakItem("Base.Rosemary", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1");
+TweakItem("Base.Sage", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1");
+TweakItem("Base.Thyme", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1;HotDrinkTea:1");
+TweakItem("Base.BouillonCube", "EvolvedRecipe", "Soup:1;Stew:1;RicePot:1");
 
 -- BASE GAME: Add Happiness to new Spices
 TweakItem("Base.Basil", "UnhappyChange", -5);
