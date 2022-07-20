@@ -93,3 +93,17 @@ RM_SBTWEAKS_RVHS-SD01-LINE-000000000012 = "Sunny... Help me! I have to go to a h
 RM_SBTWEAKS_RVHS-SD01-LINE-000000000013 = "...I can't believe the guy in the crane..."
 RM_SBTWEAKS_RVHS-SD01-LINE-000000000014 = "Take it easy sunny, I'm in a lot of pain"
 RM_SBTWEAKS_RVHS-SD01-LINE-000000000015 = "[img=music] Sunny drives off quickly and Super Dave falls off [img=music]"
+
+//Z-Squad to Z-Team overpowers
+RM_0305a32f-a000-4bc1-9183-a7773b0fa443 = "VHS: Z-Team S2.01"
+RM_ff0933e0-ec9f-4d4d-bd69-b684435357a2 = "Z-Team"
+RM_99054e02-01c1-4d9a-bfd6-e2e482506470 = "If you have a problem no-one else can solve, maybe you can hire... Z-Team"
+RM_e02615c4-6f70-47d5-abe8-7ea9db0d50c4 = "...but my name's Sam Lecter, and I'm the head of Z-Team."
+RM_5309a3fb-a75b-4997-84be-54110851e793 = "Four of Z-Team is worth a thousand of you."
+RM_070e8851-c263-4ecb-b872-5266a7c035ff = "VHS: Z-Team S2.02"
+RM_d15e61b9-b13f-4b10-ad53-b5124c23205e = "Z-Team, you're surrounded. Get off the train with your hands up."
+RM_fa201bfc-03a0-4766-b4e1-4153324ec657 = "VHS: Z-Team S2.03"
+RM_610aa9e0-098e-4e64-a35b-4eca97972fff = "VHS: Z-Team S2.04"
+RM_fde7f7e8-6847-481b-8997-234461266708 = "VHS: Z-Team S2.05"
+RM_578c735a-22e7-42cd-af29-6db559611c3d = "Z-Team, come out with your hands up."
+RM_8e723daa-6e54-4589-9fb8-28d9135518c5 = "We'll always be... Z-Team."
