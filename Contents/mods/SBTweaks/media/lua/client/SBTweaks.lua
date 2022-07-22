@@ -138,6 +138,18 @@ TweakItem("Base.Sage", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted 
 TweakItem("Base.Thyme", "EvolvedRecipe", "Soup:1;Stew:1;Pie:1;Stir fry:1;Roasted Vegetables:1;Burger:1;Salad:1;PastaPan:1;RicePan:1;PastaPot:1;RicePot:1;Taco:1;Burrito:1;Omelette:1;HotDrinkTea:1");
 TweakItem("Base.BouillonCube", "EvolvedRecipe", "Soup:1;Stew:1;RicePot:1");
 
+-- BASE GAME: Add Fruits to Pie
+TweakItem("Base.Lemon", "EvolvedRecipe", "Pie:10;Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10");
+TweakItem("Base.BerryBlack", "EvolvedRecipe", "Pie:10;Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10");
+TweakItem("Base.BerryBlue", "EvolvedRecipe", "Pie:10;Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10")
+TweakItem("Base.Peach", "EvolvedRecipe", "Pie:6;Cake:6;FruitSalad:6;Pancakes:6;Waffles:6;Muffin:6");
+TweakItem("Base.Pineapple", "EvolvedRecipe", "Pie:10;Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10");
+TweakItem("Base.Cherry", "EvolvedRecipe", "Pie:3;Cake:3;FruitSalad:3;Pancakes:3;Waffles:3;Muffin:3");
+TweakItem("Base.Grapes", "EvolvedRecipe", "Pie:15;Cake:15;FruitSalad:15;Pancakes:15;Waffles:15;Muffin:15");
+TweakItem("Base.Orange", "EvolvedRecipe", "Pie:8;Cake:8;FruitSalad:8;Pancakes:8;Waffles:8;Muffin:8");
+TweakItem("Base.Apple", "EvolvedRecipe", "Pie:8;Cake:8;FruitSalad:8;Pancakes:8;Waffles:8;Muffin:8");
+TweakItem("Base.Banana", "EvolvedRecipe", "Pie:10;Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10");
+
 -- BASE GAME: Add Happiness to new Spices
 TweakItem("Base.Basil", "UnhappyChange", -5);
 TweakItem("Base.Chives", "UnhappyChange", -5);
