@@ -7,7 +7,7 @@ module SBTweaksBags
 	
 	/* Some modded packs */
 	recipe UpgradeOPBackPacks {
-		keep Bag_BigSwatBag/Bag_M2A1_Pack/Bag_Robbie_Pack/Bag_Cat_Pack/Bag_Tactical_Alice/Bag_Radio_Pack/Bag_Hunting/Bag_Bush/Bag_Savotta/Bag_SSO/Bag_ZIP/Bag_SCBA/Bag_ST53_Set/Bag_ARVN_Rucksack/Bag_Sniper_Pack,
+		keep Bag_BigSwatBag/Bag_M2A1_Pack/Bag_Robbie_Pack/Bag_Cat_Pack/Bag_Tactical_Alice/Bag_Radio_Pack/Bag_Hunting/Bag_Bush/Bag_Savotta/Bag_SSO/Bag_ZIP/Bag_SCBA/Bag_ST53_Set/Bag_ARVN_Rucksack/Bag_Sniper_Pack/Rucksack,
 		Result:Hat_PartyHat_Stars,
 		Time:90.0,
 		NeedToBeLearn:False,
