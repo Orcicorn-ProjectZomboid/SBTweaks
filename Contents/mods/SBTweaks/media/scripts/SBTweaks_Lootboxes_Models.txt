@@ -1,0 +1,44 @@
+module Base {
+
+	model SBLootBox {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBox,
+        scale = 1.25,
+	}
+
+	model SBLootBoxAmmo {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxAmmo,
+        scale = 1.25,
+	}
+
+	model SBLootBoxMedical {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxMedical,
+        scale = 1.25,
+	}
+
+	model SBLootBoxExplosive {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxExplosive,
+        scale = 1.25,
+	}
+
+	model SBLootBoxSnacks {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxSnack,
+        scale = 1.25,
+	}
+
+	model SBLootBoxMeat {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxMeat,
+        scale = 1.25,
+	}
+
+	model SBLootBoxVehicle {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxVehicle,
+        scale = 1.25,
+	}
+}

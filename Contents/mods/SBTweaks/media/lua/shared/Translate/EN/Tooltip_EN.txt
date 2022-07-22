@@ -13,4 +13,8 @@ Tooltip_EN {
     Tooltip_SBTweaks_SBOpioids = "Provides exceptional pain relief",
     Tooltip_SBTweaks_SBTums = "Soothe upset stomachs",
     Tooltip_SBTweaks_SBCoughSyrup = "Mild relief from cold and flu symptoms",
+
+    Tooltip_SBLootBox = "Holy shit... Unwrap me!",
+    Tooltip_SBLootBoxOpen = "A random assortment of loot",
+    Tooltip_SBLootBoxHeavy = "Contents within VERY HEAVY",
 }

@@ -1,0 +1,82 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    item SBLootBox {
+        DisplayCategory = Ammo,
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = Loot Box,
+        Icon = SBLootBox,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBox,
+        Tooltip = Tooltip_SBLootBox,
+    }
+
+    item SBLootBoxMedical {
+        DisplayCategory = Ammo,
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = Loot Box: Medical,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxMedical,
+        Tooltip = Tooltip_SBLootBoxOpen,
+    }
+
+    item SBLootBoxAmmo {
+        DisplayCategory = Ammo,
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = Loot Box: Ammo,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxAmmo,
+        Tooltip = Tooltip_SBLootBoxOpen,
+    }
+
+    item SBLootBoxExplosive {
+        DisplayCategory = Ammo,
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = Loot Box: Explosives,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxExplosive,
+        Tooltip = Tooltip_SBLootBoxOpen,
+    }
+
+    item SBLootBoxSnacks {
+        DisplayCategory = Ammo,
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = Loot Box: Snacks,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxSnacks,
+        Tooltip = Tooltip_SBLootBoxOpen,
+    }
+
+    item SBLootBoxMeat {
+        DisplayCategory = Ammo,
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = Loot Box: Meat,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxMeat,
+        Tooltip = Tooltip_SBLootBoxOpen,
+    }
+
+    item SBLootBoxVehicle {
+        DisplayCategory = Ammo,
+        Weight = 5.0,
+        Type = Normal,
+        DisplayName = Loot Box: Mechanics,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxVehicle,
+        Tooltip = Tooltip_SBLootBoxHeavy,
+    }
+}

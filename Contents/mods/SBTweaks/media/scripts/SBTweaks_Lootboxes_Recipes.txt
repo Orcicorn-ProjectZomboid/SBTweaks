@@ -1,0 +1,80 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    recipe OpenSBTweakLootBox {
+        SBTweaks.SBLootBox,
+        Result: Base.SheetPaper2,
+        OnCreate:Recipe.OnCreate.OpenLootBox,
+        Time: 100.0,
+        Sound:ClothesRipping,
+        AnimNode:RipSheets,
+    }
+
+    recipe OpenSBTweakLootBoxMedical {
+        SBTweaks.SBLootBoxMedical,
+        Result: Base.Antibiotics,
+        OnCreate:Recipe.OnCreate.OpenLootBoxMedical,
+        Time: 300.0,
+        Sound:PutItemInBag,
+    }
+
+    recipe OpenSBTweakLootBoxAmmo {
+        SBTweaks.SBLootBoxAmmo,
+        Result: Base.AmmoStrap_Bullets,
+        OnCreate:Recipe.OnCreate.OpenLootBoxAmmo,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxExplosives {
+        SBTweaks.SBLootBoxExplosive,
+        Result: Base.GunPowder,
+        OnCreate:Recipe.OnCreate.OpenLootBoxExplosive,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxSnacks {
+        SBTweaks.SBLootBoxSnacks,
+        Result: Base.Cupcake,
+        OnCreate:Recipe.OnCreate.OpenLootBoxSnacks,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxMeat {
+        SBTweaks.SBLootBoxMeat,
+        Result: Base.Steak,
+        OnCreate:Recipe.OnCreate.OpenLootBoxMeat,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxVehicleNormal {
+        SBTweaks.SBLootBoxVehicle,
+        Result: Base.EngineParts=5,
+        OnCreate: Recipe.OnCreate.OpenLootBoxVehicleNormal,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxVehicleHeavyDuty {
+        SBTweaks.SBLootBoxVehicle,
+        Result: Base.EngineParts=5,
+        OnCreate:Recipe.OnCreate.OpenLootBoxVehicleHeavyDuty,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxVehicleSport {
+        SBTweaks.SBLootBoxVehicle,
+        Result: Base.EngineParts=5,
+        OnCreate:Recipe.OnCreate.OpenLootBoxVehicleSport,
+        Time: 300.0,
+        Sound:OpenBox,
+    }
+
+
+}

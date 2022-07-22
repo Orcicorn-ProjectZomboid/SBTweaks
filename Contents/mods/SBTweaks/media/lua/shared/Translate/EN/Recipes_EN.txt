@@ -85,4 +85,15 @@ Recipe_EN = {
     Recipe_MakeHull20g = "Make 20g Hull",
     Recipe_MakeHull4g = "Make 4g Hull",
     Recipe_MakeHull410g = "Make 410g Hull",
+
+    /* Lootboxes */
+    Recipe_OpenSBTweakLootBox = "Unwrap Loot Box",
+    Recipe_OpenSBTweakLootBoxMedical = "Open loot box",
+    Recipe_OpenSBTweakLootBoxAmmo = "Open Loot box",
+    Recipe_OpenSBTweakLootBoxExplosives = "Open Loot box",
+    Recipe_OpenSBTweakLootBoxSnacks = "Open Loot box",
+    Recipe_OpenSBTweakLootBoxMeat = "Open Loot box",
+    Recipe_OpenSBTweakLootBoxVehicleNormal = "Open for Regular vehicles",
+    Recipe_OpenSBTweakLootBoxVehicleHeavyDuty = "Open for Heavy-Duty vehicles",
+    Recipe_OpenSBTweakLootBoxVehicleSport = "Open for Sport vehicles",
 }

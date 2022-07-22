@@ -192,4 +192,14 @@ ItemName_EN = {
     ItemName_SBTweaks.PillsSBTums = "Antacid",
     ItemName_SBTweaks.PillsSBCoughSyrup = "Cough Syrup",
     ItemName_SBTweaks.PillsSBOpioids = "Oxycontin",
+
+    /* Loot Boxes */
+    ItemName_SBTweaks.SBLootBox = "Wrapped Loot Box",
+    ItemName_SBTweaks.SBLootBoxMedical = "Loot Box: Medical",
+    ItemName_SBTweaks.SBLootBoxAmmo = "Loot Box: Ammunition",
+    ItemName_SBTweaks.SBLootBoxExplosive = "Loot Box: Explosives",
+    ItemName_SBTweaks.SBLootBoxSnacks = "Loot Box: Snacks",
+    ItemName_SBTweaks.SBLootBoxMeat = "Loot Box: Meats",
+    ItemName_SBTweaks.SBLootBoxVehicle = "Loot Box: Vehicle Parts",
+}
 }
