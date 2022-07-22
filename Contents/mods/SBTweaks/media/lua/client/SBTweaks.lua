@@ -215,6 +215,13 @@ if getActivatedMods():contains("ScrapWeapons(new version)") then
     TweakItem("SWeapons.SalvagedCleaver", "AttachmentType", "Knife");
 end
 
+-- MOD: SCrap Armor 2658619264
+if getActivatedMods():contains("ScrapArmor(new version)") then
+    TweakItem("Base.Rucksack", "AttachmentReplacement", "Bag");
+    TweakItem("Base.Rucksack", "Capacity", 40);
+    TweakItem("Base.Rucksack", "WeightReduction", 100);
+end
+
 -- MOD: Paw Low Loot Grimoire 2279084780
 if getActivatedMods():contains("PLLootF") then
     TweakItem("Base.RogueSword", "AttachmentType", "Knife");
