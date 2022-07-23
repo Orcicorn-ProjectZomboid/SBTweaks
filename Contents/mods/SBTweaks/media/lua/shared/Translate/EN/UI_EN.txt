@@ -1,5 +1,9 @@
 UI_EN = {
+    /* Base Game */
     UI_Intro1 = "THESE ARE THE END-TIMES",
     UI_Intro2 = "THE SPACE BROTHERS ARE ALL THAT REMAINS",
     UI_Intro3 = "THIS IS HOW YOU STUPIDLY DIED",
+
+    /* Loot boxes */
+    UI_Lootbox_Discover = "! ! !",
 }
