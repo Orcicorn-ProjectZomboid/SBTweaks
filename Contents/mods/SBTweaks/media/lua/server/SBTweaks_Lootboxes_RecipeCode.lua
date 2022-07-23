@@ -64,6 +64,9 @@ function Recipe.OnCreate.OpenLootBoxMedical(items, result, player)
         {"SBTweaks.PillsSBCoughSyrup", 25, 3},
         {"SBTweaks.PillsSBOpioids", 20, 1},
         {"MoreTraits.ZombificationCure", 0.1, 1},
+        {"Base.PlantainCataplasm", 15, 3},
+        {"Base.ComfreyCataplasm", 15, 3},
+        {"Base.WildGarlicCataplasm", 15, 3},
     }
     SBTweaksOpenLootBox(player, lootArray, minLoot, maxLoot, true);
 end
@@ -118,6 +121,9 @@ function Recipe.OnCreate.OpenLootBoxExplosive(items, result, player)
         {"Base.FlameTrap", 50, 3},
         {"Base.PipeBomb", 50, 3},
         {"Base.SmokeBomb", 50, 5},
+        {"Base.SwatStunGrenade", 35, 2},
+        {"Base.SwatFragGrenade", 25, 2},
+        {"Base.SwatSmokeGrenade", 45, 3},
     }
     SBTweaksOpenLootBox(player, lootArray, minLoot, maxLoot, true);
 end
