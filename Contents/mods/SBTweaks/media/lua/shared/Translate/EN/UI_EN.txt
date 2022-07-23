@@ -6,4 +6,43 @@ UI_EN = {
 
     /* Loot boxes */
     UI_Lootbox_Discover = "! ! !",
+
+    /* Loot Box Gift Tags */
+    UI_Lootbox_Note_Intro0 = "%PLAYER%,",
+    UI_Lootbox_Note_Intro1 = "Dear %PLAYER%,",
+    UI_Lootbox_Note_Intro2 = "Howdy %PLAYER%!",
+    UI_Lootbox_Note_Intro3 = "Sup %PLAYER%",
+    UI_Lootbox_Note_Intro4 = "Well I'll be damned!",
+    UI_Lootbox_Note_Intro5 = "Bonjour %PLAYER%,",
+    UI_Lootbox_Note_Intro6 = "To whom it may concern,",
+    UI_Lootbox_Note_Intro7 = "Attention %PLAYER%",
+
+    UI_Lootbox_Note_Body0 = "01010100 01111001 01101100 01100101 01110010 00100000 01110011 01100001 01111001 01110011 00100000 01001000 01101001",
+    UI_Lootbox_Note_Body1 = "My deepest apologies for repeatedly harassing you with the helicopter.<br><br>I hope this can be of some assistance to you after already surviving for %SURVIVED%",
+    UI_Lootbox_Note_Body2 = "Since you've been gone I've been lost without a trace. I dream at night, I can only see your face. I look around but it's you I can not replace<br><br>Oh can't you see, you belong to me",
+    UI_Lootbox_Note_Body3 = "This here is all kinds of shit. But I don't have to sell this and you know it, 'cause this kind of shit here sells itself.",
+    UI_Lootbox_Note_Body4 = "Fuck I miss TV.... I mean like I realllllly miss TV.  You know the Facts of life? That show was the shit. Blair was hot as hell. God I miss people. Hottiez are so hard to find. I miss it all...",
+    UI_Lootbox_Note_Body5 = "Well, here's a box. There are many like it, but this one is mine... well it was mine, now it's yours. I'm a zombie BLRRRRGH... just kidding, but ya I'm dead. Enjoy!",
+    UI_Lootbox_Note_Body6 = "So imagine this. I'm just walking home from the grocery store and out of nowhere a fucking big black Z-Team van smacks me right in the face. I'm fucking rocked. Like hard.... assholes stole my box too!",
+    UI_Lootbox_Note_Body7 = "I can't do this anymore. Everyone's dead. Corpses everywhere. It's just depressing and disgusting.<br>Guess it's time to use that last shot.  Hope this finds you in a better place than this hell",
+    UI_Lootbox_Note_Body8 = "- Milk<br>- %MONTH% Eggs<br>- Lemonade<br>- %DAY% Lbs Chicken<br>- Toilet Paper<br>- KY Jelly",
+    UI_Lootbox_Note_Body9 = "I am out of carrots. I am out of sticks<br>%PLAYER% has time and again proven himself to be unmanageable and a poor manager. I recommend they be removed from that position",
+    UI_Lootbox_Note_Body10 = "Just look at %PLAYER%'s face: it's vacant, with a hint of sadness. Like a drunk who's lost a bet %SURVIVED% ago",
+    UI_Lootbox_Note_Body11 = "Do you know why you're still alive?<br>Because zombies eat brains and you ain't got any",
+    UI_Lootbox_Note_Body12 = "Cake, and grief councelling will be available at the conclusion of the test in %YEAR%",
+    UI_Lootbox_Note_Body13 = "We're no strangers to love. You know the rules and so do it.<br><br>A full commitment is what I'm thinking of, you wouldn't get this from any other guy",
+
+    UI_Lootbox_Note_Exit0 = "Shut up and take my money!<br>- Phillip J. Fry",
+    UI_Lootbox_Note_Exit1 = "See you around,<br>- ''Helicopter Guy''",
+    UI_Lootbox_Note_Exit2 = "Go with God,<br>- Pastor Spiffo",
+    UI_Lootbox_Note_Exit3 = "I'd buy that for a dollar!<br>- Bixby Snyder",
+    UI_Lootbox_Note_Exit4 = "With all my love,<br>Your secret admirer<br>x o x o x o",
+    UI_Lootbox_Note_Exit5 = "Best of luck!<br>- Future %PLAYER% (%YEAR%)",
+    UI_Lootbox_Note_Exit6 = "Fuck this shit...",
+    UI_Lootbox_Note_Exit7 = "Farwell and thanks for all the cheese,<br>- B. Baggins",
+    UI_Lootbox_Note_Exit8 = "DoN'T dEad OpEN iNsIdE<br>- Coral",
+    UI_Lootbox_Note_Exit9 = "Thinking one step ahead<br>Like a carpenter who makes stairs<br><br> - A. Bernard",
+    UI_Lootbox_Note_Exit10 = "Wait for this to blow over,<br>- Shaun",
+    UI_Lootbox_Note_Exit11 = "They know we're in here now<br>- George R.",
+    UI_Lootbox_Note_Exit12 = "Never gonna give you up<br>- R.Astley",
 }

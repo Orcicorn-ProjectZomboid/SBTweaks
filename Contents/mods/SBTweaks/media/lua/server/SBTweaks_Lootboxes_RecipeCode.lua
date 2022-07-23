@@ -21,13 +21,27 @@ function Recipe.OnCreate.OpenLootBox(items, result, player)
     }
     SBTweaksOpenLootBox(player, lootArray, 1, 1, false);
 
-    paperNote = "Dear " .. player:getUsername() .. ",\n\n" .. 
-                "My deepest apologies for repeatedly harassing you with the helicopter. " ..
-                "I hope this can be of some assistance to you after already surviving for " .. 
-                player:getTimeSurvived() .. "\n\n" .. 
-                "See you around,\n\n" .. 
-                "''Helicopter Guy''\n" ..
-                gameTime:getYear();
+    -- Random Picks
+    local iIntro = ZombRand(7)
+    local iBody = ZombRand(13)
+    local iExit = ZombRand(12)
+
+    -- Load random Note text    
+    paperNote = getText("UI_Lootbox_Note_Intro" .. iIntro) .. "\n\n" ..
+                getText("UI_Lootbox_Note_Body" .. iBody) .. "\n\n" .. 
+                getText("UI_Lootbox_Note_Exit" .. iExit) .. "\n\n\n" ..
+                "[MSG#" .. iIntro .. iBody .. iExit .. "]";
+
+    -- Process some common variables
+    paperNote = paperNote:gsub("%%PLAYER%%", player:getUsername());
+    paperNote = paperNote:gsub("%%SURVIVED%%", player:getTimeSurvived());
+    paperNote = paperNote:gsub("%%YEAR%%", gameTime:getYear());
+    paperNote = paperNote:gsub("%%DAY%%", gameTime:getDay());
+    paperNote = paperNote:gsub("%%MONTH%%", gameTime:getMonth());
+    paperNote = paperNote:gsub("%%HOUR%%", gameTime:getHour());
+    paperNote = paperNote:gsub("%%MINUTES%%",gameTime:getMinutes());
+
+    -- Add the Gift tag to the inventory
     result:setName("A Gift Tag");
     result:addPage(1, paperNote);
     result:setLockedBy("HelicopterGuy");
