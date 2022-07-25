@@ -150,6 +150,14 @@ TweakItem("Base.Orange", "EvolvedRecipe", "Pie:8;Cake:8;FruitSalad:8;Pancakes:8;
 TweakItem("Base.Apple", "EvolvedRecipe", "Pie:8;Cake:8;FruitSalad:8;Pancakes:8;Waffles:8;Muffin:8");
 TweakItem("Base.Banana", "EvolvedRecipe", "Pie:10;Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10");
 
+-- BASE GAME: Add Canned Items to Pie (e.g.: Sheppard's Pie)
+TweakItem("Base.CannedCornedBeefOpen", "EvolvedRecipe", "Pie:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:10;Sandwich Baguette:10;Salad:10;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15");
+TweakItem("Base.CannedCornOpen", "EvolvedRecipe", "Pie:15;Soup:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Burger:8;Salad:15;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15");
+TweakItem("Base.CannedPeasOpen", "EvolvedRecipe", "Pie:15;Omelette:7;Soup:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Roasted Vegetables:15;RicePot:15;RicePan:15");
+TweakItem("Base.CannedFruitCocktailOpen", "EvolvedRecipe", "Pie:15;Cake:15;FruitSalad:15;Pancakes:15;Waffles:15;Muffin:15");
+TweakItem("Base.CannedPeachesOpen", "EvolvedRecipe", "Pie:15;Cake:15;FruitSalad:15;Pancakes:15;Waffles:15;Muffin:15");
+TweakItem("Base.CannedPineappleOpen", "EvolvedRecipe", "Pie:15;Cake:15;FruitSalad:15;Pancakes:15;Waffles:15;Muffin:15");
+
 -- BASE GAME: Add Happiness to new Spices
 TweakItem("Base.Basil", "UnhappyChange", -5);
 TweakItem("Base.Chives", "UnhappyChange", -5);
