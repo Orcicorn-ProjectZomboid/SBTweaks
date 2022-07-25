@@ -52,6 +52,22 @@ module SBTweaks {
         Sound:BoxOfRoundsOpenOne,
     }
 
+    recipe OpenSBTweakLootBoxMelee {
+        SBTweaks.SBLootBoxMelee,
+        Result: Base.HuntingKnife,
+        OnCreate:Recipe.OnCreate.OpenLootBoxMelee,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
+    recipe OpenSBTweakLootBoxRangeRare {
+        SBTweaks.SBLootBoxRangeRare,
+        Result: Base.Judge_45LC,
+        OnCreate:Recipe.OnCreate.OpenLootBoxRangeRare,
+        Time: 300.0,
+        Sound:BoxOfRoundsOpenOne,
+    }
+
     recipe OpenSBTweakLootBoxVehicleNormal {
         SBTweaks.SBLootBoxVehicle,
         Result: Base.EngineParts=5,

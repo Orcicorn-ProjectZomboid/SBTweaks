@@ -33,7 +33,7 @@ module SBTweaks {
         Icon = SBLootBoxOpen,
         MetalValue = 50,
         WorldStaticModel = SBLootBoxAmmo,
-        Tooltip = Tooltip_SBLootBoxOpen,
+        Tooltip = Tooltip_SBLootBoxHeavy,
     }
 
     item SBLootBoxExplosive {
@@ -44,7 +44,7 @@ module SBTweaks {
         Icon = SBLootBoxOpen,
         MetalValue = 50,
         WorldStaticModel = SBLootBoxExplosive,
-        Tooltip = Tooltip_SBLootBoxOpen,
+        Tooltip = Tooltip_SBLootBoxHeavy,
     }
 
     item SBLootBoxSnacks {
@@ -79,4 +79,27 @@ module SBTweaks {
         WorldStaticModel = SBLootBoxVehicle,
         Tooltip = Tooltip_SBLootBoxHeavy,
     }
+
+    item SBLootBoxMelee {
+        DisplayCategory = Ammo,
+        Weight = 5.0,
+        Type = Normal,
+        DisplayName = Loot Box: Melee Items,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxMelee,
+        Tooltip = Tooltip_SBLootBoxHeavy,
+    }
+
+    item SBLootBoxRangeRare {
+        DisplayCategory = Ammo,
+        Weight = 5.0,
+        Type = Normal,
+        DisplayName = Loot Box: Rare Weapons,
+        Icon = SBLootBoxOpen,
+        MetalValue = 50,
+        WorldStaticModel = SBLootBoxRange,
+        Tooltip = Tooltip_SBLootBoxHeavy,
+    }
+}
 }

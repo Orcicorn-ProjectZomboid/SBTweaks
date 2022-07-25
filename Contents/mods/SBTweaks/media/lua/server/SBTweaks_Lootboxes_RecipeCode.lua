@@ -12,17 +12,19 @@
 function Recipe.OnCreate.OpenLootBox(items, result, player)
     gameTime = getGameTime()
     lootArray = {
-        {"SBTweaks.SBLootBoxExplosive", 15, 1},
-        {"SBTweaks.SBLootBoxAmmo", 20, 1},
         {"SBTweaks.SBLootBoxMedical", 20, 1},
-        {"SBTweaks.SBLootBoxVehicle", 15, 1},
         {"SBTweaks.SBLootBoxMeat", 20, 1},
         {"SBTweaks.SBLootBoxSnacks", 25, 1},
+        {"SBTweaks.SBLootBoxMelee", 20, 1},
+        {"SBTweaks.SBLootBoxRangeRare", 20, 1},
+        {"SBTweaks.SBLootBoxExplosive", 15, 1},
+        {"SBTweaks.SBLootBoxVehicle", 15, 1},
+        {"SBTweaks.SBLootBoxAmmo", 10, 1},
     }
     SBTweaksOpenLootBox(player, lootArray, 1, 1, false);
 
     -- Random Picks
-    local iTag = ZombRand(3);
+    local iTag = ZombRand(4);
     local iIntro = ZombRand(10);
     local iBody = ZombRand(17);
     local iExit = ZombRand(18);
@@ -46,6 +48,7 @@ function Recipe.OnCreate.OpenLootBox(items, result, player)
     result:setName(getText("UI_Lootbox_Note_Tag" .. iTag));
     result:addPage(1, paperNote);
     result:setLockedBy("ANameThatDoesntExistSoTheMessageisAlwaysLocked");
+
 end
 
 function Recipe.OnCreate.OpenLootBoxMedical(items, result, player)
@@ -73,7 +76,7 @@ function Recipe.OnCreate.OpenLootBoxMedical(items, result, player)
 end
 
 function Recipe.OnCreate.OpenLootBoxAmmo(items, result, player)
-    minLoot = 5;
+    minLoot = 6;
     maxLoot = 10;
     lootArray = {
         {"Base.AmmoCan50_10", 10, 1},
@@ -112,23 +115,151 @@ function Recipe.OnCreate.OpenLootBoxAmmo(items, result, player)
 end
 
 function Recipe.OnCreate.OpenLootBoxExplosive(items, result, player)
-    minLoot = 4;
-    maxLoot = 6;
+    minLoot = 5;
+    maxLoot = 8;
     lootArray = {
-        {"Base.AmmoCan50_HE", 10, 1},
-        {"Base.AmmoCan50_INC", 10, 1},
+        {"Base.AmmoCan50_HE", 30, 1},
+        {"Base.AmmoCan50_INC", 30, 1},
         {"Base.AmmoCan50_ROCKET", 10, 1},
-        {"Base.Aerosolbomb", 50, 3},
-        {"Base.FlameTrap", 50, 3},
-        {"Base.PipeBomb", 50, 3},
-        {"Base.SmokeBomb", 50, 5},
+        {"Base.Aerosolbomb", 30, 3},
+        {"Base.FlameTrap", 35, 3},
+        {"Base.PipeBomb", 35, 3},
+        {"Base.SmokeBomb", 45, 5},
         {"Base.SwatStunGrenade", 35, 2},
         {"Base.SwatFragGrenade", 25, 2},
         {"Base.SwatSmokeGrenade", 45, 3},
         {"Base.Molotov", 35, 3},
+        {"Base.m79", 10, 1},
+        {"Base.EX41_HE", 10, 1},
+        {"Base.Federal_HE", 10, 1},
+        {"Base.GM94_HE", 10, 1},
+        {"Base.M32_HE", 10, 1},
+        {"Base.M72_LAW", 5, 1},
+        {"Base.RPG_7", 1, 1},
     }
     SBTweaksOpenLootBox(player, lootArray, minLoot, maxLoot, true);
 end
+
+function Recipe.OnCreate.OpenLootBoxMelee(items, result, player)
+    minLoot = 4;
+    maxLoot = 8;
+    lootArray = {
+        {"Base.Nightstick", 22, 1},
+        {"Base.ChairLeg", 15, 1},
+        {"Base.Katana", 10, 1},
+        {"Base.Axe", 10, 1},
+        {"Base.WoodAxe", 10, 1},
+        {"Base.BaseballBatNails", 20, 1},
+        {"Base.SpearMachete", 20, 1},
+        {"SWeapons.SalvagedClimbingAxe", 15, 1},
+        {"SWeapons.SharpenedStopSign", 5, 1},
+        {"SWeapons.ChainBat", 20, 1},
+        {"SWeapons.GearMace", 20, 1},
+        {"SWeapons.WireBat", 20, 1},
+        {"SWeapons.ScrapClub", 15, 1},
+        {"SWeapons.SpearSharpenedScrewdriver", 5, 1},
+        {"SWeapons.SalvagedNightstick", 8, 1},
+        {"SWeapons.Micromaul", 2, 1},
+        {"Base.CH_WarSword", 10, 1},
+        {"Base.BGMachete", 10, 1},
+        {"Base.KillBill", 12, 1},
+        {"Base.RussianMachete", 10, 1},
+        {"Base.ClericMace", 8, 1},
+        {"Base.RogueSword", 8, 1},
+        {"Base.Tanto", 8, 1},
+        {"Base.WitchyStaff", 6, 1},
+        {"Base.TKSword", 8, 1},
+        {"MoreTraits.AntiqueAxe", 10, 1},
+        {"MoreTraits.Thumper", 8, 1},
+        {"MoreTraits.ObsidianBlade", 8, 1},
+        {"AuthenticZClothing.AuthenticCricketBat", 5, 1},
+        {"AuthenticZClothing.AuthenticIceStaff", 5, 1},
+        {"AuthenticZClothing.AuthenticRaiderStaff", 5, 1},
+        {"AuthenticZClothing.ShortMetalSpear", 10, 1},
+        {"AuthenticZClothing.ShortMetalSpike", 10, 1},
+        {"MWPWeapons.fiskarcurvedmachete", 10, 1},
+        {"MWPWeapons.aluminiumbaseballbat", 10, 1},
+        {"MWPWeapons.albtacticalkatana", 10, 1},
+        {"MWPWeapons.cwcombathatchet", 10, 1},
+        {"MWPWeapons.syntheticsword", 8, 1},
+        {"MWPWeapons.roughneckaxe", 6, 1},
+        {"MWPWeapons.crtkfreyraxe", 10, 1},
+        {"MWPWeapons.doomsdaysurvivalaxe", 7, 1},
+        {"MWPWeapons.spydercohatchethawk", 10, 1},
+        {"MWPWeapons.pythoncampaxe", 7, 1},
+        {"MWPWeapons.gothsamuraisword", 9, 1},
+        {"MWPWeapons.eastonb5baseballbat", 14, 1},
+        {"MWPWeapons.fatmaxbrickhammer", 12, 1},
+        {"MWPWeapons.rexlerkunai", 10, 1},
+        {"MWPWeapons.britishp1856pioneers", 10, 1},
+        {"MWPWeapons.sptesnaztacticalshovel", 10, 1},
+        {"MWPWeapons.m48tacticalwarhammer", 10, 1},
+        {"MWPWeapons.coldsteelspear", 10, 1},
+        {"MWPWeapons.blitalianstiletto", 10, 1},
+        {"Base.SausageWeapon", 1, 1},
+        {"Base.ragerbaseballbatbarbedmod", 10, 1},
+        {"Base.TheBong", 2, 1},
+        {"Base.Lightsaber01", 1, 1},
+        {"Base.Lightsaber02", 1, 1},
+        {"Base.Lightsaber03", 1, 1},
+        {"Base.Conan_Sword", 2, 1},
+    }
+    SBTweaksOpenLootBox(player, lootArray, minLoot, maxLoot, true);
+end
+
+function Recipe.OnCreate.OpenLootBoxRangeRare(items, result, player)
+    minLoot = 5;
+    maxLoot = 8;
+    lootArray = {
+        {"Base.SW_M500", 20, 1},
+        {"Base.Automag", 20, 1},
+        {"Base.BT9_Stock", 20, 1},
+        {"Base.Luger_Carbine", 18, 1},
+        {"Base.VP70", 18, 1},
+        {"Base.VP70_Stock", 18, 1},
+        {"Base.KRISS_Stock", 15, 1},
+        {"Base.F2000", 15, 1},
+        {"Base.BT380_Stock", 15, 1},
+        {"Base.FN_57_MK2", 15, 1},
+        {"Base.Jatimatic", 15, 1},
+        {"Base.ADAR", 15, 1},
+        {"Base.MK47", 15, 1},
+        {"Base.TAC15", 15, 1},
+        {"Base.Carbon15_97", 15, 1},
+        {"Base.KSG25", 15, 1},
+        {"Base.UTS15", 15, 1},
+        {"Base.FAMAS_Felin", 12, 1},
+        {"Base.Origin", 12, 1},
+        {"Base.AA12", 12, 1},
+        {"Base.Ash", 10, 1},
+        {"Base.TKShotgun", 10, 1},
+        {"Base.FN_P90", 10, 1},
+        {"Base.Lewis", 10, 1},
+        {"Base.PPSH", 10, 1},
+        {"Base.K11", 10, 1},
+        {"Base.LVOA_C", 10, 1},
+        {"Base.BAR", 8, 1},
+        {"Base.RPK74", 8, 1},
+        {"Base.MG42", 8, 1},
+        {"Base.XM8LMG", 8, 1},
+        {"Base.M41APulse", 6, 1},
+        {"Base.E11Blaster", 6, 1},
+        {"Base.Musk", 6, 1},
+        {"Base.XM214", 4, 1},
+        {"Base.GAU17", 4, 1},
+        {"Base.GAU19", 4, 1},
+        {"Base.RogueSniperRifle", 2, 1},
+        {"Base.Boltgun", 2, 1},
+        {"Base.AutoCannon", 1, 1},
+        {"AuthenticZClothing.FlareGun", 1, 1},
+        {"Base.BuckRogersGun", 1, 1},
+        {"Base.FutureAssaultRifle", 1, 1},
+        {"Base.FutureRevolver", 1, 1},
+        {"Base.FutureShotgun", 1, 1},
+        {"Base.MP5HK", 1, 1},
+    }
+    SBTweaksOpenLootBox(player, lootArray, minLoot, maxLoot, true);
+end 
 
 function Recipe.OnCreate.OpenLootBoxSnacks(items, result, player)
     minLoot = 5;

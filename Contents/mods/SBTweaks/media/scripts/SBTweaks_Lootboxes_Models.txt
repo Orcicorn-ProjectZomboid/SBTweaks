@@ -41,4 +41,16 @@ module Base {
         texture = WorldItems/SBLootBoxVehicle,
         scale = 1.25,
 	}
+
+	model SBLootBoxMelee {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxMelee,
+        scale = 1.25,
+	}
+
+	model SBLootBoxRange {
+		mesh = WorldItems/Tofu,
+        texture = WorldItems/SBLootBoxRange,
+        scale = 1.25,
+	}
 }

@@ -93,7 +93,10 @@ Recipe_EN = {
     Recipe_OpenSBTweakLootBoxExplosives = "Open Loot box",
     Recipe_OpenSBTweakLootBoxSnacks = "Open Loot box",
     Recipe_OpenSBTweakLootBoxMeat = "Open Loot box",
+    Recipe_OpenSBTweakLootBoxMelee = "Open Loot box",
+    Recipe_OpenSBTweakLootBoxRangeRare = "Open Loot box",
     Recipe_OpenSBTweakLootBoxVehicleNormal = "Open for Regular vehicles",
     Recipe_OpenSBTweakLootBoxVehicleHeavyDuty = "Open for Heavy-Duty vehicles",
     Recipe_OpenSBTweakLootBoxVehicleSport = "Open for Sport vehicles",
+
 }

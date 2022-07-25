@@ -201,5 +201,7 @@ ItemName_EN = {
     ItemName_SBTweaks.SBLootBoxSnacks = "Loot Box: Snacks",
     ItemName_SBTweaks.SBLootBoxMeat = "Loot Box: Meats",
     ItemName_SBTweaks.SBLootBoxVehicle = "Loot Box: Vehicle Parts",
+    ItemName_SBTweaks.SBLootBoxMelee = "Loot Box: Melee",
+    ItemName_SBTweaks.SBLootBoxRangeRare = "Loot Box: Rare Weapons",
 }
 }
