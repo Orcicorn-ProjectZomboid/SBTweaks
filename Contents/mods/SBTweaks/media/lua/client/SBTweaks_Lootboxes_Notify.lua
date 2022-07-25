@@ -9,9 +9,9 @@ function SBTweaksLootBoxesCheck(_iSInventoryPage, _state)
                 local container = v.inventory:getParent()
                 if type == "inventorymale" or type == "inventoryfemale" then 
                     if v.inventory:contains("SBTweaks.SBLootBox") then
-                        HaloTextHelper.addText(player, getText("UI_Lootbox_Discover"), true, HaloTextHelper.getColorRed());
+                        HaloTextHelper.addText(player, getText("UI_Lootbox_Discover"), true, HaloTextHelper.getColorGreen());
                         container:setHighlighted(true);
-                        container:setHighlightColor(1, 1, 0, 0.5);
+                        container:setHighlightColor(1, 1, 0, 0.85);
                     end
                 end
             end
