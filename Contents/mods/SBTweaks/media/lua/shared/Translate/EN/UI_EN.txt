@@ -1,8 +1,11 @@
 UI_EN = {
     /* Base Game */
-    UI_Intro1 = "THESE ARE THE END-TIMES",
-    UI_Intro2 = "THE SPACE BROTHERS ARE ALL THAT REMAINS",
-    UI_Intro3 = "THIS IS HOW YOU STUPIDLY DIED",
+    /* UI_Intro1 = "THESE ARE THE END-TIMES", */
+    /* UI_Intro2 = "THE SPACE BROTHERS ARE ALL THAT REMAINS", */
+    /* UI_Intro3 = "THIS IS HOW YOU STUPIDLY DIED", */
+    UI_Intro1 = "A WORLD WHERE NOTHING MAKES SENSE",
+    UI_Intro2 = "ONLY ONE HOPE FOR HUMANITY REMAINS",
+    UI_Intro3 = "THE Z-TEAM (we're fucked)",
 
     /* Loot boxes */
     UI_Lootbox_Discover = "! ! !",
