@@ -22,9 +22,10 @@ function Recipe.OnCreate.OpenLootBox(items, result, player)
     SBTweaksOpenLootBox(player, lootArray, 1, 1, false);
 
     -- Random Picks
-    local iIntro = ZombRand(7)
-    local iBody = ZombRand(13)
-    local iExit = ZombRand(12)
+    local iTag = ZombRand(3);
+    local iIntro = ZombRand(10);
+    local iBody = ZombRand(17);
+    local iExit = ZombRand(18);
 
     -- Load random Note text    
     paperNote = getText("UI_Lootbox_Note_Intro" .. iIntro) .. "\n\n" ..
@@ -42,9 +43,9 @@ function Recipe.OnCreate.OpenLootBox(items, result, player)
     paperNote = paperNote:gsub("%%MINUTES%%",gameTime:getMinutes());
 
     -- Add the Gift tag to the inventory
-    result:setName("A Gift Tag");
+    result:setName(getText("UI_Lootbox_Note_Tag" .. iTag));
     result:addPage(1, paperNote);
-    result:setLockedBy("HelicopterGuy");
+    result:setLockedBy("ANameThatDoesntExistSoTheMessageisAlwaysLocked");
 end
 
 function Recipe.OnCreate.OpenLootBoxMedical(items, result, player)
@@ -72,8 +73,8 @@ function Recipe.OnCreate.OpenLootBoxMedical(items, result, player)
 end
 
 function Recipe.OnCreate.OpenLootBoxAmmo(items, result, player)
-    minLoot = 4;
-    maxLoot = 8;
+    minLoot = 5;
+    maxLoot = 10;
     lootArray = {
         {"Base.AmmoCan50_10", 10, 1},
         {"Base.AmmoCan50_12", 10, 1},
@@ -124,6 +125,7 @@ function Recipe.OnCreate.OpenLootBoxExplosive(items, result, player)
         {"Base.SwatStunGrenade", 35, 2},
         {"Base.SwatFragGrenade", 25, 2},
         {"Base.SwatSmokeGrenade", 45, 3},
+        {"Base.Molotov", 35, 3},
     }
     SBTweaksOpenLootBox(player, lootArray, minLoot, maxLoot, true);
 end

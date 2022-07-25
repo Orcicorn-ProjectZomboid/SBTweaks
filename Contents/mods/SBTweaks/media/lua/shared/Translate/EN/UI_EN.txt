@@ -8,6 +8,11 @@ UI_EN = {
     UI_Lootbox_Discover = "! ! !",
 
     /* Loot Box Gift Tags */
+    UI_Lootbox_Note_Tag0 = "A Gift Tag",
+    UI_Lootbox_Note_Tag1 = "A Hastily written note",
+    UI_Lootbox_Note_Tag2 = "A Torn letter",
+    UI_Lootbox_Note_Tag3 = "A Private message",
+
     UI_Lootbox_Note_Intro0 = "%PLAYER%,",
     UI_Lootbox_Note_Intro1 = "Dear %PLAYER%,",
     UI_Lootbox_Note_Intro2 = "Howdy %PLAYER%!",
@@ -16,6 +21,9 @@ UI_EN = {
     UI_Lootbox_Note_Intro5 = "Bonjour %PLAYER%,",
     UI_Lootbox_Note_Intro6 = "To whom it may concern,",
     UI_Lootbox_Note_Intro7 = "Attention %PLAYER%",
+    UI_Lootbox_Note_Intro8 = "My dearest love,",
+    UI_Lootbox_Note_Intro9 = "Good day %PLAYER%",
+    UI_Lootbox_Note_Intro10 = "Hello %PLAYER%",
 
     UI_Lootbox_Note_Body0 = "01010100 01111001 01101100 01100101 01110010 00100000 01110011 01100001 01111001 01110011 00100000 01001000 01101001",
     UI_Lootbox_Note_Body1 = "My deepest apologies for repeatedly harassing you with the helicopter.<br><br>I hope this can be of some assistance to you after already surviving for %SURVIVED%",
@@ -31,6 +39,10 @@ UI_EN = {
     UI_Lootbox_Note_Body11 = "Do you know why you're still alive?<br>Because zombies eat brains and you ain't got any",
     UI_Lootbox_Note_Body12 = "Cake, and grief councelling will be available at the conclusion of the test in %YEAR%",
     UI_Lootbox_Note_Body13 = "We're no strangers to love. You know the rules and so do it.<br><br>A full commitment is what I'm thinking of, you wouldn't get this from any other guy",
+    UI_Lootbox_Note_Body14 = "Roses are red,<br>Violets are blue<br>This loot box is mine<br>And it's not for you... GIVE IT BACK!",
+    UI_Lootbox_Note_Body15 = "Get your shit together. Get it all together and put it in a backpack. Take it somewhere y'know? take it to the shit store and sell it. O-or put it in a shit museum. I don't care, just get your shit together",
+    UI_Lootbox_Note_Body16 = "Well, what have we got here? Will you look at that? Those flashing eyes, those flushed cheeks, those trembling lips. You know something %PLAYER%? You are *UGLY* when you're angry",
+    UI_Lootbox_Note_Body17 = "Everything is under control. Situation normal. Everything's perfectly alright, we're fine. We're all fine here now. Thank you. How are you?",
 
     UI_Lootbox_Note_Exit0 = "Shut up and take my money!<br>- Phillip J. Fry",
     UI_Lootbox_Note_Exit1 = "See you around,<br>- ''Helicopter Guy''",
@@ -44,5 +56,11 @@ UI_EN = {
     UI_Lootbox_Note_Exit9 = "Thinking one step ahead<br>Like a carpenter who makes stairs<br><br> - A. Bernard",
     UI_Lootbox_Note_Exit10 = "Wait for this to blow over,<br>- Shaun",
     UI_Lootbox_Note_Exit11 = "They know we're in here now<br>- George R.",
-    UI_Lootbox_Note_Exit12 = "Never gonna give you up<br>- R.Astley",
+    UI_Lootbox_Note_Exit12 = "Until next time<br>- Mortimer Smith Jr",
+    UI_Lootbox_Note_Exit13 = "Toodles!<br>- Obviously heterosexual Nuck Chorris",
+    UI_Lootbox_Note_Exit14 = "I make a difference, I will not disappear<br>- M. Tpim",
+    UI_Lootbox_Note_Exit15 = "Smoke it you got'em<br>- D.H.",
+    UI_Lootbox_Note_Exit16 = "We meet for the first time for the last time<br>- Stone Larr",
+    UI_Lootbox_Note_Exit17 = "I love it when loot comes together<br>- J.H. Smith",
+    UI_Lootbox_Note_Exit18 = "Never gonna give you up<br>- R.Astley",
 }
