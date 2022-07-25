@@ -99,4 +99,8 @@ Recipe_EN = {
     Recipe_OpenSBTweakLootBoxVehicleHeavyDuty = "Open for Heavy-Duty vehicles",
     Recipe_OpenSBTweakLootBoxVehicleSport = "Open for Sport vehicles",
 
+    /* Over Power Poultice Recipes */
+    Recipe_Make_Comfrey_Poultice = "Make Fracture Healing Poultice",
+    Recipe_Make_Plantain_Poultice = "Make Wound Healing Poultice",
+    Recipe_Make_Wild_Garlic_Poultice = "Make Antibiotic Poultice",
 }
