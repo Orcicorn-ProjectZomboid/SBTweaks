@@ -49,6 +49,15 @@ function Recipe.OnCreate.OpenLootBox(items, result, player)
     result:addPage(1, paperNote);
     result:setLockedBy("ANameThatDoesntExistSoTheMessageisAlwaysLocked");
 
+    -- 1% Chance to get a secondary free box IF it's not a bonus box already
+    if items:get(0):getName() ~= getText("UI_Lootbox_Bonus_Item") then
+        if ZombRand(100) == 69 then 
+            bonusItems = player:getInventory():AddItems("SBTweaks.SBLootBox", 1);
+            bonusItems:get(0):setName(getText("UI_Lootbox_Bonus_Item"));
+            HaloTextHelper.addText(player, getText("UI_Lootbox_Bonus_Alert"), true, HaloTextHelper.getColorRed());
+            player:playSound("UIClickToStart");
+        end
+    end
 end
 
 function Recipe.OnCreate.OpenLootBoxMedical(items, result, player)

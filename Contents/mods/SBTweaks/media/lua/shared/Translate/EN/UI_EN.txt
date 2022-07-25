@@ -7,6 +7,10 @@ UI_EN = {
     /* Loot boxes */
     UI_Lootbox_Discover = "! ! !",
 
+    /* Bonus Loot Boxes */
+    UI_Lootbox_Bonus_Alert = "Winner! Winner!",
+    UI_Lootbox_Bonus_Item = "A Bonus Loot Box",
+
     /* Loot Box Gift Tags */
     UI_Lootbox_Note_Tag0 = "A Gift Tag",
     UI_Lootbox_Note_Tag1 = "A Hastily written note",
