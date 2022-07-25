@@ -158,6 +158,10 @@ TweakItem("Base.CannedFruitCocktailOpen", "EvolvedRecipe", "Pie:15;Cake:15;Fruit
 TweakItem("Base.CannedPeachesOpen", "EvolvedRecipe", "Pie:15;Cake:15;FruitSalad:15;Pancakes:15;Waffles:15;Muffin:15");
 TweakItem("Base.CannedPineappleOpen", "EvolvedRecipe", "Pie:15;Cake:15;FruitSalad:15;Pancakes:15;Waffles:15;Muffin:15");
 
+-- BASE GAME: Gravy is a spice for evolved recipes
+TweakItem("Base.Gravy", "Spice", "true");
+TweakItem("Base.Gravy", "EvolvedRecipe", "Stew:7;Pie:7;Stir fry:7;Stir fry Griddle Pan:7;Roasted Vegetables:7;Sandwich:7;Sandwich Baguette:7;Burger:7;PastaPan:7;RicePan:7;PastaPot:7;RicePot:7;Taco:7;Burrito:7;Waffles:7;Omelette:7;Muffin:7");
+
 -- BASE GAME: Add Happiness to new Spices
 TweakItem("Base.Basil", "UnhappyChange", -5);
 TweakItem("Base.Chives", "UnhappyChange", -5);
