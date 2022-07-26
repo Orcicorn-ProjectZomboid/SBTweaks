@@ -43,6 +43,11 @@
         <note>More Traits Mod</note>
     </files>
     <files>
+        <path>media/clothing/clothingItems/tshirt_mrtnecklaces.xml</path>
+        <guid>sbtweaks-1234-45dd-8fdc-mrt890d918c3</guid>
+        <note>T-Shirt that acts like a necklace</note>
+    </files>
+    <files>
         <note>Default/Unchanged: Used on Super Dave Zombie</note>
 		<path>media/clothing/clothingItems/Shoes_BlackBoots.xml</path>
 		<guid>2717dfdb-49ef-401a-9715-c4487ce6abea</guid>

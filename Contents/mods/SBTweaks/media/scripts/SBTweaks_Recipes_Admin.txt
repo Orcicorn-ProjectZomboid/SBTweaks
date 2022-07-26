@@ -27,4 +27,15 @@ module SBTweaks {
         Prop2: Base.Book,
     }
 
+    recipe MakeMrTNecklaces {
+        Necklace_Gold,
+        Necklace_GoldDiamond,
+        Necklace_GoldRuby,
+        NecklaceLong_Gold,
+        NecklaceLong_GoldDiamond,
+        Result: SBTweaks.tshirt_mrtnecklace,
+        Time: 60.0,
+        Category: SBTweaks,
+    }
+
 }

@@ -127,5 +127,19 @@ module SBTweaks
         Tooltip = Tooltip_SBTweaks_AuthenticSuperDave,
     }
 
+    item tshirt_mrtnecklace {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Mr. T Necklaces,
+        ClothingItem = tshirt_mrtnecklaces,
+		Icon = MrTNecklaces,
+        BodyLocation = Necklace,
+        IconsForTexture = tshirt_mrtnecklaces,
+        Cosmetic = TRUE,
+        WorldStaticModel = TShirt_Ground,
+        CanHaveHoles = false,
+    }
+
+
 
 }

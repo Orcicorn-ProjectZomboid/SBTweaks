@@ -161,6 +161,7 @@ ItemName_EN = {
     ItemName_SBTweaks.tshirt_spacebro_black = "Space Brothers Protective Shirt",
     ItemName_SBTweaks.tshirt_spacebro_white = "Space Brothers Combat Shirt",
     ItemName_SBTweaks.socks_spacebro = "Space Brothers Running Socks",
+    ItemName_SBTweaks.tshirt_mrtnecklace = "Mr. T's Necklaces",
 
     /* Super Dave Clothing */
     ItemName_SBTweaks.tshirt_superdave = "Super Dave T-Shirt",

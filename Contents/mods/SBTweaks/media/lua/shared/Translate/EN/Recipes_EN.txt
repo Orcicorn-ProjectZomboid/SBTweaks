@@ -22,6 +22,8 @@ Recipe_EN = {
     
     Recipe_MakeJarLidFromSmallMetal = "Cut into 4 Jar Lids",
     Recipe_MakeJarLidFromLargeMetal = "Cut into 16 Jar Lids"
+
+    Recipe_MakeMrTNecklaces = "Combine into Mr. T. Necklace",
     
     /* Aresenal Super Repairs */
     Recipe_SBSuperRepairsArsenalGunFighter = "Expert Repair",
