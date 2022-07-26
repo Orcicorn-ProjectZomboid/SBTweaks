@@ -103,4 +103,9 @@ Recipe_EN = {
     Recipe_Make_Comfrey_Poultice = "Make Fracture Healing Poultice",
     Recipe_Make_Plantain_Poultice = "Make Wound Healing Poultice",
     Recipe_Make_Wild_Garlic_Poultice = "Make Antibiotic Poultice",
+
+    /* Seat Upholstering */
+    Recipe_SBUpholsterSeats1 = "Reupholster seat",
+    Recipe_SBUpholsterSeats2 = "Reupholster seat",
+    Recipe_SBUpholsterSeats3 = "Reupholster seat",
 }

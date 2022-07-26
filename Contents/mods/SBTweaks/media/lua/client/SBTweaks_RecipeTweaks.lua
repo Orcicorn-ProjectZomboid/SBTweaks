@@ -30,3 +30,8 @@ function SBTweaks_Learn2Read(item, result, player)
     result:setName("Certificate of Literacy")
     player:getTraits():remove("Illiterate")
 end
+
+-- Repair Car Seats
+function SBTweaks_UpholsterSeats(item, result, player)
+    result:setCondition(100)
+end
