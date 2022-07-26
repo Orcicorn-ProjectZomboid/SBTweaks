@@ -13,4 +13,9 @@ ContextMenu_EN = {
 	/* Brita's Missing Text: 2460154811 */
 	ContextMenu_Duty_Belt_WearBack = "Pouches in Back",
 	ContextMenu_Duty_Belt_WearFront = "Pouches in Front",
+
+	/* Right-Click Options for Poultices */
+	ContextMenu_PlantainCataplasm = "Wound Poultice",
+	ContextMenu_ComfreyCataplasm = "Fracture Poultice",
+	ContextMenu_GarlicCataplasm = "Antibiotic Poultice",
 }
