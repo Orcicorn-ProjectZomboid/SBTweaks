@@ -110,4 +110,7 @@ Recipe_EN = {
     Recipe_SBUpholsterSeats1 = "Reupholster seat",
     Recipe_SBUpholsterSeats2 = "Reupholster seat",
     Recipe_SBUpholsterSeats3 = "Reupholster seat",
+
+    /* Trap Fixes */
+    Recipe_SBChoppedCarrots = "Chop Carrots",
 }
