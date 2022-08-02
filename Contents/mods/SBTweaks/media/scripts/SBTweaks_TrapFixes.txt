@@ -3,6 +3,7 @@ module SBTweaks {
         Base
     }
 
+    /* Fix Carrots */
     recipe SBChoppedCarrots {
         keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
         Carrots=2,
@@ -12,7 +13,6 @@ module SBTweaks {
         Category:Cooking,
         OnGiveXP:Recipe.OnGiveXP.Cooking3,
     }
-
     item SBChoppedCarrots {
 		DisplayName = Chopped Carrots,
 		DisplayCategory = Food,
@@ -27,10 +27,40 @@ module SBTweaks {
 		ThirstChange = -2,
 		Calories = 15,
 		Carbohydrates = 3.65,
-		Lipids = 0.09,
+		Lipids = 0.08,
 		Proteins = 0.36,
 		StaticModel = CylinderFood_Orange,
 		WorldStaticModel = Carrots_Ground,
     }
+
+    /* Fix Broccoli */
+    recipe SBChoppedBroccoli {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        Broccoli=2,
+        Result:SBChoppedBroccoli,
+        Sound:AddItemInRecipe,
+        Time:40.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+    item SBChoppedBroccoli {
+		DisplayName = Chopped Broccoli,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Broccoli,
+		EvolvedRecipe = Omelette:8;Soup:8;Stew:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8,
+		FoodType = Vegetables,
+		DaysFresh = 4,
+		DaysTotallyRotten = 6,
+		HungerChange = -8,
+		ThirstChange = -2,
+		Calories = 6,
+		Carbohydrates = 1.03,
+		Lipids = 0.05,
+		Proteins = 0.43,
+		StaticModel = CylinderFood_Green,
+		WorldStaticModel = Broccoli_Ground,
+	}
 
 }
